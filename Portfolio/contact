@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment 10 for the class 'Intro to Web Design' at the University of Montana.">
+    <meta name="author" content="Sierra Cornelius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Marck+Script&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+  </head>
+  <style>
+body {
+  font-family: 'Marck Script', 'Lucida Handwriting';
+}
+
+  * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  z-index: 5;
+}
+
+input[type=submit] {
+  background-color: #91AF90;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+input[type=submit]:hover {
+  background-color: #ffa875;
+  shadow: 1px;
+}
+
+/* Container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 25px;
+  z-index: 5;
+  margin: 30px;
+}
+
+/* Create two columns that float next to eachother */
+.column-c {
+  float: left;
+  width: 50%;
+  margin-top: 80px;
+  padding: 20px;
+  z-index: 5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  z-index: 5;
+}
+
+.label {
+  font-size: 16px;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  z-index: 5;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+
+.column-f {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 150px;
+  text-decoration: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social li {
+  display: inline;
+  text: inline;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: floralwhite;
+  background-color: transparent;
+  opacity: 80%;
+}
+
+ion-icon {
+  white;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-c, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+  <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
+    <div class="contactimg">
+    <div class="navbar color-teal">
+      <a class="active" href="index.html"><ion-icon name="rocket-sharp"></ion-icon></i> Home</a>
+      <a href="index.html.section1"><ion-icon name="information-circle"></ion-icon></i> About </a>
+      <a href="contact.html"><ion-icon name="mail-sharp"></ion-icon></i> Contact</a>
+      <div class="search-container">
+      <form action="/action_page.php">
+   <input type="text" placeholder="Search.." name="search">
+   <button type="submit"><ion-icon name="search-sharp"></ion-icon>Go</button>
+ </form>
+</div>
+</div>
+  <div class="container" style="text-align:center; margin-top:50px; margin-bottom:20px">
+    <div class="caption2"style="align:left;padding-bottom:2px;margin-bottom:10px">
+      <span class="border" style="text-align:left; margin:15px 15px 15px 15px">contact me</span><br>
+    <p style="position:relative;color:#ddd;background-color:#282E34;text-align:center;padding:5px 5px;text-align:justify;z-index:7;margin:10px 40px">Send me your questions or messages!</p>
+  </div>
+        <div class="row">
+        <div class="column-c">
+          <img src="https://64.media.tumblr.com/a8a69d68e740d5f8e5bb91d369b92092/tumblr_mj05yvcnmK1qdsbmxo1_640.jpg" style="width:50%;margin:80px">
+        </div>
+        <div class="column-c">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="caption1" style>
+      <span class="border">Back to Home</span>
+      <div class="intro"><br>
+      <a href="index.html" style="display: block;"><img alt="down arrow" class="rotateimg180" src="http://www.cyclemon.com/images/fleche2.png"></a>
+      </div>
+    </div>
+  </div>
+  <footer style="text-align:center padding: 12px 12px; background-color: #91AF90; color:white; font-family:'Josefin Slab'">
+      <div class="container color-seagreen">
+        <div class="row">
+          <div class="column-f" left-align="0" margin-left="0">
+            <p class="font-italic text-muted" style="font-size:15px; font-weight: normal">Please don't hesitate to reach out with feedback, questions, or ideas.</p>
+            <ul style="display:inline; list_style_type:none">
+              <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+              <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+              <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="vimeo"><ion-icon name="logo-vimeo"></ion-icon></a></li>
+            </ul>
+          </div>
+          <div class="column-f">
+            <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+              <li class="mb-2"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon>Email</a></li>
+              <li class="mb-2"><a href="tel:+4733378901" class="text-muted"><ion-icon name="call"></ion-icon>Phone</a></li>
+              <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon>Questions?</a></li>
+            </ul>
+          </div>
+          <div class="column-f" style="font-weight:normal">
+            <ul class="list-unstyled mb-0" type="unstyled" list_style_type="none" style="color:white; ion-icon:white">
+                <li class="mb-2"><a href="#section1" class="text-muted"><ion-icon name="cafe"></ion-icon>coffee</a></li>
+                <li class="mb-2"><a href="#section2" class="text-muted"><ion-icon name="brush"></ion-icon>art</a></li>
+                <li class="mb-2"><a href="#section3" class="text-muted"><ion-icon name="construct"></ion-icon>crafts</a></li>
+                <li class="mb-2"><a href="#section4" class="text-muted"><ion-icon name="book"></ion-icon>literature</a></li>
+              </ul>
+          </div>
+          <div class="column-f" style="color:white; margin-right:0px; font-weight:normal">
+            <ul class="list-unstyled mb-0" style= "list_style_type:none; list-style: none">
+              <li class="mb-2">Newsletter: Sign up to receive monthly updates</li>
+            <div class="p-1 rounded border">
+              <div class="input-group">
+                <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+                <div class="input-group-append">
+                  <button id="button-addon1" type="submit" class="btn btn-link"><ion-icon name="paper-plane"></ion-icon></button></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End -->
+</body>
+</html>

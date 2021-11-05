@@ -1,0 +1,473 @@
+body, html {
+  height: 100%;
+	margin: 0;
+  background: url(images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Marck Script', 'Lucida Handwriting';
+  color: #777;
+  overflow-x: hidden;
+}
+
+div {
+  display: block;
+}
+
+.bg-logo {
+ background-image: url(images/logo.png);
+ color: white;
+ position: absolute;
+ margin: auto;
+ left: 15%;
+ right: 10%;
+ top: 20%;
+ z-index: 5;
+ width: 700px;
+ padding: 1px;
+ text-align: center;
+}
+
+.end-logo {
+ background-image: url(images/the_end.png);
+ color: white;
+ position: absolute;
+ margin: auto;
+ left: 15%;
+ right: 10%;
+ top: 20%;
+ z-index: 5;
+ width: 700px;
+ padding: 1px;
+ text-align: center;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  opacity: 0.75;
+  left: 0;
+  right: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.bgimg-1 {
+  background-image: url(https://images.unsplash.com/photo-1493503979513-c7463d52a528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80);
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80);
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.bgimg-3 {
+  background-image: url(https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.bgimg-4 {
+  background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=841&q=80);
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.bgimg-5 {
+  background-image: url(https://images.unsplash.com/photo-1506806770414-b0e5db562f56?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxjcmFmdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.contactimg {
+background-image: url(https://images.unsplash.com/photo-1524668951403-d44b28200ce0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1934&q=80);
+height: auto;
+width: 1800px;
+z-index: -1;
+position: relative;
+opacity: 0.75;
+left: 0;
+right: 0;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+z-index: 2;
+overflow-x: hidden;
+}
+
+.caption1 {
+  position: absolute;
+  left: 0;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 8;
+  margin: 20px;
+}
+
+.caption1 span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  letter-spacing: 10px;
+  z-index: 8;
+}
+
+.caption2 {
+  position: absolute;
+  margin: 20px;
+  left: 0;
+  top: 5%;
+  bottom: 15px;
+  padding-bottom: 10;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 8;
+}
+
+.caption2 span.border {
+  background-color: #111;
+  margin: 20px;
+  color: #fff;
+  padding: 30px;
+  font-size: 20px;
+  letter-spacing: 10px;
+  z-index: 8;
+  left: 0;
+}
+
+.caption3 {
+  position: absolute;
+  margin: 20px;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  z-index: 8;
+}
+
+.caption3 span.border {
+  background-color: #111;
+  margin: 20px;
+  color: #fff;
+  padding: 40px;
+  font-size: 20px;
+  letter-spacing: 10px;
+  z-index: 8;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px 'Marck Script', 'Lucida Handwriting';
+  color: #111;
+}
+
+.about p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.about p::first-letter {
+   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-size: 40px;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: .5em;
+}
+
+p {
+  z-index: 12;
+}
+/* Top navigation bar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #336600;
+  opacity: 70%;
+  overflow: hidden;
+  font-family: 'Marck Script', 'Lucida Handwriting';
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
+.navbar a {
+  float: left;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Marck Script', 'Lucida Handwriting',
+  z-index: 10;
+}
+
+.navbar a:hover {
+  background-color: #ffa875;
+  opacity: 100%;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #009933;
+  opacity: 80%;
+}
+
+.navbar .search-container {
+  float: right;
+}
+
+.navbar input[type=text] {
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 22px;
+  border: none;
+}
+
+.navbar .search-container button {
+  float: right;
+  padding: 7px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-right: 16px;
+  background: #009933;
+  font-size: 20px;
+  font-family: 'Marck Script', 'Lucida Handwriting',
+  border: none;
+  cursor: pointer;
+  color: white;
+  opacity: 70%;
+}
+
+.navbar .search-container button:hover {
+  background: #ffa875;
+  font-weight: bold;
+  color: white;
+  opacity: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .search-container {
+    float: none;
+  }
+
+  .navbar a, .navbar input[type=text], .navbar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .navbar input[type=text] {
+    border: 1px solid white;
+  }
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+/*side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 10;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  z-index: 10;
+}
+
+.sidenav a:hover {
+  background-color: #ffa875;
+  color: #818181;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Images grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  left: 40px;
+  right: auto;
+  margin: 20;
+  overflow: hidden;
+  }
+
+/* Video container for literature section */
+  .vid-container {
+  background-color: #2d2d2d;
+  opacity: 40%;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  z-index: 20;
+  left: 15px;
+  right: auto;
+  }
+
+.grid img {
+  border: 10px color: transparent;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 20%;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* This is just for the little down arrow under "scroll down" */
+.intro {
+  display: block;
+	position: relative;
+	color: white;
+	padding: 0;
+  z-index: 40;
+}
+
+.intro a {
+	border: none;
+  display: block;
+  top: 95%;
+	position: relative;
+	left: 45%;
+  right: 45%;
+	width: 25px;
+  height: 25px;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+}
+
+.intro img:hover {
+	opacity: 100;
+  image-orientation: 90deg;
+  box-shadow: 0 0 10px #ccc;
+  width: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ion-icon {
+  white;
+}

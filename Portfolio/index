@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="final assignment for the class 'Intro to Web Design' at the University of Montana.">
+    <meta name="author" content="Sierra Cornelius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Marck+Script&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+  </head>
+  <style>
+  ::-webkit-scrollbar {
+  width: 10px;
+}
+
+  ::-webkit-scrollbar-track-piece {
+    color: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    color:#91AF90;
+  }
+
+#mySidenav a {
+  position: fixed;
+  right: -80px;
+  transition: 0.3s, -0.3s;
+  padding: 10px;
+  width: 115px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  text-align: right;
+  opacity: 70%;
+  overflow-x: hidden;
+  z-index: 10;
+}
+
+#mySidenav a:hover {
+  right: 0;
+  opacity: 100%;
+  cursor: pointer;
+  background: #ffa875;
+  color: white;
+}
+
+#coffee {
+  top: 65px;
+  background-color: #91AF90;
+}
+
+#art {
+  top: 135px;
+  background-color: #6C9669;
+}
+
+#crafts {
+  top: 205px;
+  background-color: #4F6B40;
+}
+
+#literature {
+  top: 275px;
+  background-color: #345127;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 150px;
+  text-decoration: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social li {
+  display: inline;
+  text: inline;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: floralwhite;
+  background-color: transparent;
+  opacity: 80%;
+}
+
+ion-icon {
+  white;
+}
+
+</style>
+    <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
+    <div class="bgimg-1">
+      <img src="images/logo.png" class="bg-logo"/>
+      <a name="Home"</a>
+      <div class="caption1">
+        <span class="border" href="#About">scroll down</a></span>
+        <div class="intro"><br>
+        <a href="#About" style="display: block;"><img alt="down arrow" src="http://www.cyclemon.com/images/fleche2.png"></a>
+      </div>
+    </div>
+  </div>
+<a name="About"</a>
+<div class="about" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align:justify;">
+  <h3 class="about" style="text-align:center;">about me</h3>
+  <p>My name is Sierra and I am a mother to two amazing and incredible six-year-old identical twin boys. They are the coolest little kids around and I have an immense amount of faith that their generation, generation Alpha, is going to transform and change our world in ways that we can't imagine. They know more about how the universe works than I did by the time I was probably 18 and their imagination is boundless. Becoming a mother was a terrifying experience for me because I was so afraid of "losing myself" to mommyhood. There's this stereotype in our culture around mothers that somehow after they have children they lose their identities and become passionless creatures. This certainly never happened to me or any of the other mothers I know. My children just became participants in all of my creative endeavors and becoming a mother actually made me become an even more creative person. Parenthood is like receiving the backstage pass to life or the key to the lock on the back of the magic box: your whole mind and body is suddently awakened to the reality of life. There are so many magnanimus things in this momentous world that I believe are simply impossible to grasp if you haven't experienced parenthood. Aside from contemplating the meaning of life with my children and also trying to stay sane amidst parenting, working full-time, managing my ADHD, and trying to finish my B.A. I am also passionate about good coffee, art in all of its forms, crafting and diy projects, and books and/or literature.</p>
+</div>
+<div class="bgimg-2">
+  <a name="section1"</a>
+  <div class="caption2">
+    <span class="border" style="text-align:left;left:0">coffee</span><br>
+  </div>
+  <div class="grid" style="margin-left:40px;margin-right:40px;text-align:center;padding:40px 40px;">
+      <img src="https://images.unsplash.com/photo-1522726481795-a4ae463bcf81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80" title="photo by Najib Kalil on Unsplash" width= "25%">
+      <img src="https://images.unsplash.com/photo-1574881439658-93b7287ac894?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" title="photo by Mazniha Mohd Ali Noh on Unsplash" width= "25%">
+      <img src="https://images.unsplash.com/photo-1597816792530-f6d57bd2bf9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" title="photo by Delightin Dee on Unsplash" width= "25%">
+      <img src="https://images.unsplash.com/photo-1531582750043-221f07a6a0fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" title="photo by Eiliv-Sonas Aceron on Unsplash" width= "25%">
+      <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" title="photo by Nathan Dumlao on Unsplash" width= "25%">
+      <img src="https://images.unsplash.com/photo-1514066558159-fc8c737ef259?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGVzcHJlc3NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" title="photo by Nathan Dumlao on Unsplash" width= "25%">
+  </div>
+</div>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>Coffee is like therapy for me. I have ADHD so the caffeine doesn't wake me up the way it does other people, but it does help me focus and provides a much needed dopamine rush. I drink triple shot cappucinos when available, otherwise I prefer plain black drip coffee.<a href="https://www.healthline.com/nutrition/top-13-evidence-based-health-benefits-of-coffee" style="color:salmon; font-weight: bold"> Read about these 13 Health Benefits of Coffee, Based on Science"</a></p>
+  </div>
+</div>
+<a name="section2"</a>
+<div class="bgimg-3">
+    <div class="caption2" style="margin:10px 10px 10px 10px">
+        <span class ="border" style="margin:10px 10px 10px 10px">art</span>
+    </div>
+    <br>
+    <br>
+<div style="position:relative; width:90%; opacity:100%; z-index:20">
+    <div style="position:relative; color:#ddd; background-color:#282E34; text-align:center; padding:50px 80px 50px 50px; text-align:justify; margin-left: 0px; margin-right: 10px; margin-top:100px; width:90%; opacity:100%; z-index:20">
+    <p style="opacity:100%; z-index:20">My dream when I was a child was to grow up and become an artist. I have always loved to paing, draw, doodle, and generally create. I wholeheartedly believe that art was instrumental in managing my ADHD symptoms before I was diagnosed and my ability to hyperfocus on a project has allowed me to be a better artist and accomplish more than others who might become otherwise frustrated. I've also always had a rebellious streak when it comes to art and I prefer to break the rules rather than adhere to them. Creativity should not be caged. My creative passion is something that I am honored to share with my children and their tactile imaginations are far superior to what mine could ever be. <a href="https://www.scientificamerican.com/article/the-creativity-of-adhd/" style="color:salmon; font-weight: bold">Read this article about the creative advantage of ADHD</a></p>
+    </div>
+    <div align="center" style="text-align:center; left:50%; margin-top:10px; margin-bottom:0px"><img src="images/art_quote_LeGuin.jpg" alt="One of the functions of art is to give people the words to know their own experience. There are always areas of vast silence in any culture, and part of an artist’s job is to go into those areas and come back from the silence with something to say. It’s one reason why we read poetry, because poets can give us the words we need. When we read good poetry, we often say, ‘Yeah, that’s it. That’s how I feel.’ Ursula K. Le Guin" title="Ursula K. Le Guin quote" width="40%" position="center" left="50%" margin-left="50px"></img>
+    </div>
+</div>
+</div>
+<div class="bgimg-5">
+  <a name="section3"</a>
+    <div class="caption2" style="margin-top:0px">
+    <span class="border align-left position-left left-0" style="margin-top:0px">crafts</span>
+    </div>
+      <div align="center" style="text-align:center; left:50%; margin-top:50px; margin-bottom:0px"><img src="https://artfulparent.com/wp-content/uploads/2017/08/Creativity-Quote-by-Mary-Lou-Cook-683x1024.png" width="40%" position="center" left="50%" margin-left="50px"></img>
+  </div>
+    <div style="position:relative;">
+      <div style="color:#ddd; background-color:#282E34; text-align:center; padding:50px 80px; text-align:justify">
+        <p>Crafts are an extended form of art. Around my home they look like construction projects, learning oragami, making traveling LEGO boxes, scientific experiments, scrapbooking, and so much more. My children also have ADHD and the three of us are all very tactile individuals that love coming up with new projects to try together. It helps calm our hyperactive minds and bodies and I am continually inspired by their creativity.<a href="https://theconversation.com/how-craft-is-good-for-our-health-98755" style="color:salmon; font-weight: bold"> Read here to find out more about how crafting and "flow" are good for mental health and encourage mindfulness.</a></p>
+      </div>
+    </div>
+  </div>
+<div class="bgimg-4">
+  <a name="section4"</a>
+  <div class="caption2">
+    <span class="border align-left position-left left-0" style="margin-bottom:50px">literature</span>
+  </div>
+  <div class="about" style="color: #777; background-color:white; text-align:center; padding:30px 30px; text-align:justify; margin-top:100px">
+    <p><h3 style="text-align:center; margin-top:100px">read all of the books</h3>My love and passion for reading began very early on in my life. Stories were a way for me to escape, travel, explore, learn, and meet new people. I fell in love with that moment when you are reading about an experience either fictional or not of someone whose life looks entirely unline yours and your soul expands just a little more to make room for theirs. Books and characters have been my favorite relationships and friends. I believe that stories are a sacred and powerful tool for change.<a href="https://www.brainpickings.org/tag/books/" style="color:salmon; font-weight: bold"> Explore Maria Popova's blog that has and endless supply of thought-provoking explorations on the power of story and "what it means to live a decent, substantive, rewarding life."</p>
+  </div><br>
+  <div align="center" style="margin-top:80px; margin-bottom:100px"><iframe width="800" height="339" left="25%" padding="50px" margin="80px 50px 50px 80px" src="https://www.youtube.com/embed/ctaPAm14L10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="bgimg-1">
+  <a name="end"</a>
+    <img src="images/the_end.png" class="end-logo"/>
+  <div class="caption1">
+    <span class="border" a href="#Home">Back to Top</a></span>
+    <div class="intro"><br>
+      <div class="rotateimg180">
+    <a href="#Home" style="display: block;"><img alt="down arrow"  src="http://www.cyclemon.com/images/fleche2.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
+      <div id="mySidenav" class="sidenav">
+        <a href="#section1" id="coffee">coffee</a>
+        <a href="#section2" id="art">art</a>
+        <a href="#section3" id="crafts">crafts</a>
+        <a href="#section4" id="literature">literature</a>
+      </div>
+      <div class="navbar color-teal">
+        <a class="active" href="#Home"><ion-icon name="rocket-sharp"></ion-icon></i> Home</a>
+        <a href="#About"><ion-icon name="information-circle"></ion-icon></i> About </a>
+        <a href="contact.html"><ion-icon name="mail-sharp"></ion-icon></i> Contact</a>
+        <div class="search-container">
+        <form action="/action_page.php">
+     <input type="text" placeholder="Search.." name="search">
+     <button type="submit"><ion-icon name="search-sharp"></ion-icon>Go</button>
+   </form>
+ </div>
+</div>
+<footer style="text-align:center padding: 12px 12px; background-color: #91AF90; color:white; font-family:'Josefin Slab'">
+    <div class="container color-seagreen">
+      <div class="row">
+        <div class="column" left-align="0" margin-left="0">
+          <p class="font-italic text-muted" style="font-size:15px; font-weight: normal">Please don't hesitate to reach out with feedback, questions, or ideas.</p>
+          <ul style="display:inline; list_style_type:none">
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="vimeo"><ion-icon name="logo-vimeo"></ion-icon></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+            <li class="mb-2"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon>Email</a></li>
+            <li class="mb-2"><a href="tel:+4733378901" class="text-muted"><ion-icon name="call"></ion-icon>Phone</a></li>
+            <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon>Questions?</a></li>
+          </ul>
+        </div>
+        <div class="column" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" type="unstyled" list_style_type="none" style="color:white; ion-icon:white">
+              <li class="mb-2"><a href="#section1" class="text-muted"><ion-icon name="cafe"></ion-icon>coffee</a></li>
+              <li class="mb-2"><a href="#section2" class="text-muted"><ion-icon name="brush"></ion-icon>art</a></li>
+              <li class="mb-2"><a href="#section3" class="text-muted"><ion-icon name="construct"></ion-icon>crafts</a></li>
+              <li class="mb-2"><a href="#section4" class="text-muted"><ion-icon name="book"></ion-icon>literature</a></li>
+            </ul>
+        </div>
+        <div class="column" style="color:white; margin-right:0px; font-weight:normal">
+          <ul class="list-unstyled mb-0" style= "list_style_type:none; list-style: none">
+            <li class="mb-2">Newsletter: Sign up to receive monthly updates</li>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><ion-icon name="paper-plane"></ion-icon></button></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- End -->
+  </body>
+</html>
