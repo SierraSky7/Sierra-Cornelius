@@ -217,13 +217,13 @@ p {
 }
 
 .navbar a:hover {
-  background-color: #ffa875;
+  background-color: #2D0611;
   opacity: 100%;
   font-weight: bold;
 }
 
 .active {
-  background-color: #009933;
+  background-color: #330814;
   opacity: 80%;
 }
 
@@ -245,7 +245,7 @@ p {
   margin-top: 6px;
   margin-bottom: 5px;
   margin-right: 16px;
-  background: #009933;
+  background: #1C2805;
   font-size: 20px;
   font-family: 'Marck Script', 'Lucida Handwriting',
   border: none;
@@ -255,7 +255,7 @@ p {
 }
 
 .navbar .search-container button:hover {
-  background: #ffa875;
+  background: #2D0611;
   font-weight: bold;
   color: white;
   opacity: 100%;
