@@ -53,7 +53,7 @@ div {
 }
 
 .bgimg-1 {
-  background-image: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  background-image: url(images/pine_forest.jpg);
   min-height: 100%;
   max-width: 100%;
 }
