@@ -322,7 +322,7 @@ p {
 }
 
 /* Video container for literature section */
-.vid-container {
+  .vid-container {
   background-color: #2d2d2d;
   opacity: 40%;
   width: 800px;
