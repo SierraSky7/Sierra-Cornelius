@@ -323,8 +323,8 @@ p {
 
 //* The grid: Four equal columns that floats next to each other */
 .gridcolumn {
-  float: center;
-  width: 25%;
+  float: left;
+  width: 20%;
   padding: 10px;
 }
 
@@ -488,13 +488,6 @@ input[type=submit]:hover {
     expandImg.parentElement.style.display = "block";
   }
 
-}
-.rotateimg180 {
-  -webkit-transform:rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
 }
 
 a:link {
