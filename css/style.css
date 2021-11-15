@@ -330,7 +330,7 @@ p {
 
 /* Style the images inside the grid */
 .gridcolumn img {
-  opacity: 0.8;
+  opacity: 0.7;
   cursor: pointer;
 }
 
