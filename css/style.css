@@ -329,12 +329,12 @@ p {
 }
 
 /* Style the images inside the grid */
-.gridcolumn img {
+.gridrow .gridcolumn img {
   opacity: 0.7;
   cursor: pointer;
 }
 
-.gridcolumn img:hover {
+.gridrow .gridcolumn img:hover {
   opacity: 1;
 }
 
