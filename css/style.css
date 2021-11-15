@@ -339,7 +339,7 @@ p {
 }
 
 /* Clear floats after the columns */
-.row: after {
+.gridrow:after {
   content: "";
   display: table;
   clear: both;
