@@ -132,7 +132,7 @@ overflow-x: hidden;
 }
 
 .caption2 span.border {
-  background-color: #ffa875;
+  background-color: #91AF90;
   margin: 20px;
   color: #fff;
   padding: 30px;
@@ -166,6 +166,7 @@ h3 {
   letter-spacing: 5px;
   font: 25px 'Marck Script', 'Lucida Handwriting';
   color: #111;
+  margin-left: 10px;
 }
 
 .about p {
