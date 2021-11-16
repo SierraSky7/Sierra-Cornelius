@@ -142,6 +142,15 @@ overflow-x: hidden;
   left: 0;
 }
 
+.caption2::first-letter {
+   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-size: 40px;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: .5em;
+   padding-bottom: 2px;
+}
+
 .caption3 {
   position: absolute;
   margin: 20px;
@@ -182,7 +191,7 @@ h3 {
     line-height: 2;
 }
 
-.about p::first-letter {
+.about h3::first-letter {
    font-family: 'Marck Script', 'Lucida Handwriting';
    font-size: 40px;
    font-weight: bold;
