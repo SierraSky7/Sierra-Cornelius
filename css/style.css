@@ -197,8 +197,8 @@ p {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: #336600;
-  opacity: 70%;
+  background-color: #323232;
+  opacity: 85%;
   overflow: hidden;
   font-family: 'Marck Script', 'Lucida Handwriting';
   top: 0;
@@ -224,7 +224,7 @@ p {
 
 .active {
   background-color: #330814;
-  opacity: 80%;
+  opacity: 85%;
 }
 
 .navbar .search-container {
@@ -251,7 +251,7 @@ p {
   border: none;
   cursor: pointer;
   color: white;
-  opacity: 70%;
+  opacity: 85%;
 }
 
 .navbar .search-container button:hover {
@@ -321,19 +321,6 @@ p {
   .sidenav a {font-size: 18px;}
 }
 
-/* Video container for literature section */
-  .vid-container {
-  background-color: #2d2d2d;
-  opacity: 40%;
-  width: 800px;
-  margin: auto;
-  padding: 10px;
-  text-align: center;
-  z-index: 10;
-  left: 15px;
-  right: auto;
-  }
-
 .grid img {
   border: 10px color: transparent;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
@@ -355,7 +342,7 @@ p {
 .intro a {
 	border: none;
   display: block;
-  top: 95%;
+  top: 85%;
 	position: relative;
 	left: 45%;
   right: 45%;
