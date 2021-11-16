@@ -68,7 +68,47 @@
   background-color: #345127;
 }
 
-.column {
+.imagecontainer {
+  position: relative;
+  width: 25%;
+}
+
+.containerimage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2D0611;
+}
+
+.imagecontainer:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.socialcolumn {
   float: left;
   width: 20%;
   padding: 5px;
@@ -76,7 +116,7 @@
   text-decoration: left;
 }
 
-.row:after {
+.socialrow:after {
   content: "";
   display: table;
   clear: both;
@@ -144,7 +184,6 @@ ion-icon {
   content: "";
   display: table;
   clear: both;
-
 }
 
 </style>
@@ -170,21 +209,28 @@ ion-icon {
     <span class="border" style="margin:10px 10px 10px 10px padding: 15px 15px ">my work</span>
   </div>
   <br> </br>
-<div style="position:relative; background-color:#282E34; z-index:20; margin-left: 0px; margin-right: 0px; margin-top:10%; margin-bottom:10%; width:90%; opacity:.6;">
+<div style="position:relative; background-color:#282E34; z-index:20; margin-left: 0px; margin-right: 0px; margin-top:10%; margin-bottom:10%; width:100%; opacity:.6;">
   <p style="opacity: 1; z-index: 20; width: 90%">
     <div class="row">
     <div class="column">
-    <img src="img_nature.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+      <div class="imagecontainer">
+          <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80" alt="Nature" class="containerimage" style="width:25%" onclick="myFunction(this);">
+          <div class="overlay">
+            <div class="text">Graphic Design</div>
+          </div>
+        </div>
+      </div>
   </div>
   <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+    <img src="https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80" alt="Snow" style="width:25%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Mountains" style="width:25%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80" alt="Lights" style="width:25%" onclick="myFunction(this);">
   </div>
+</div>
 </div>
   </p>
   </div>
@@ -244,8 +290,8 @@ ion-icon {
 </div>
 <footer style="text-align:center padding: 12px 12px; background-color: #91AF90; color:white; font-family:'Josefin Slab'">
     <div class="container color-seagreen">
-      <div class="row">
-        <div class="column" left-align="0" margin-left="0">
+      <div class="socialrow">
+        <div class="socialcolumn" left-align="0" margin-left="0">
           <p class="font-italic text-muted" style="font-size:15px; font-weight: normal">Please don't hesitate to reach out with feedback, questions, or ideas.</p>
           <ul style="display:inline; list_style_type:none">
             <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
@@ -254,14 +300,14 @@ ion-icon {
             <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="vimeo"><ion-icon name="logo-vimeo"></ion-icon></a></li>
           </ul>
         </div>
-        <div class="column">
+        <div class="socialcolumn">
           <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
             <li class="mb-2"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon>Email</a></li>
             <li class="mb-2"><a href="tel:+4733378901" class="text-muted"><ion-icon name="call"></ion-icon>Phone</a></li>
             <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon>Questions?</a></li>
           </ul>
         </div>
-        <div class="column" style="font-weight:normal">
+        <div class="socialcolumn" style="font-weight:normal">
           <ul class="list-unstyled mb-0" type="unstyled" list_style_type="none" style="color:white; ion-icon:white">
               <li class="mb-2"><a href="#section1" class="text-muted"><ion-icon name="cafe"></ion-icon>coffee</a></li>
               <li class="mb-2"><a href="#section2" class="text-muted"><ion-icon name="brush"></ion-icon>art</a></li>
@@ -269,7 +315,7 @@ ion-icon {
               <li class="mb-2"><a href="#section4" class="text-muted"><ion-icon name="book"></ion-icon>literature</a></li>
             </ul>
         </div>
-        <div class="column" style="color:white; margin-right:0px; font-weight:normal">
+        <div class="socialcolumn" style="color:white; margin-right:0px; font-weight:normal">
           <ul class="list-unstyled mb-0" style= "list_style_type:none; list-style: none">
             <li class="mb-2">Newsletter: Sign up to receive monthly updates</li>
           <div class="p-1 rounded border">
