@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="final assignment for the class 'Intro to Web Design' at the University of Montana.">
+    <meta name="author" content="Sierra Cornelius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Marck+Script&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+  </head>
+  <style>
+  ::-webkit-scrollbar {
+  width: 10px;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    color: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    color:#91AF90;
+  }
+
+#mySidenav a {
+  position: fixed;
+  right: -80px;
+  transition: 0.3s, -0.3s;
+  padding: 10px;
+  width: 115px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  text-align: right;
+  opacity: 70%;
+  overflow-x: hidden;
+  z-index: 7;
+}
+
+#mySidenav a:hover {
+  right: 0;
+  opacity: 100%;
+  cursor: pointer;
+  background: #ffa875;
+  color: white;
+}
+
+#Graphic_Design {
+  top: 65px;
+  background-color: #91AF90;
+}
+
+#Video_Editting {
+  top: 135px;
+  background-color: #6C9669;
+}
+
+#Writing {
+  top: 205px;
+  background-color: #4F6B40;
+}
+
+#Social_Media_Management {
+  top: 275px;
+  background-color: #345127;
+}
+
+.imagecontainer {
+  position: relative;
+  float: center;
+  width: 100%;
+  z-index: 10;
+  opacity: 1;
+  align-content: center;
+}
+
+.containerimage {
+  display: block;
+  width: 200px;
+  height: 200px;
+  z-index: 12;
+  cursor: pointer;
+  float: left;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2D0611;
+  border-radius: 50%;
+}
+
+.imagecontainer:hover .overlay {
+  opacity: .9;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.socialcolumn {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 150px;
+  text-decoration: left;
+}
+
+.socialrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social li {
+  display: inline;
+  text: inline;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: floralwhite;
+  background-color: transparent;
+  opacity: 80%;
+}
+
+ion-icon {
+  white;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+  padding: 10px 3px 10px 3px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  z-index: 12;
+  opacity: 1;
+}
+
+</style>
+    <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
+<a name="About"</a>
+<div class="about" style="color:#141414; background-color:white; text-align:left; padding:15px 50px 50px 50px; margin-left:10">
+  <h3 class="about" style="text-align:left;">Writing</h3>
+  <p>A dynamic, creative, and resourceful media artist experienced in concept creation, storytelling, graphic design, writing, and strategic communications. Passionate about the vital role that visual art and writing play in transmitting valuable ideas that inform and inspire, she hopes to advance her 3+ years of professional design experience in the creative industry.</p>
+</div>
+<div class="bgimg-2">
+  <a name="section1"</a>
+  <div class="caption2">
+    <span class="border" style="margin:10px 10px 10px 10px padding:15px 15px">what i do</span>
+  </div>
+  <br> </br>
+<div style="position:relative; z-index:10; margin-left: 5px; margin-right: 5px; margin-top:10%; margin-bottom:10%; width:100%">
+  <p style="opacity: 1; z-index: 15; width: 100%; background-color:transparent">
+    <div class="row">
+    <div class="column" style="float:right; padding-right:3px; padding-left:3px; margin-left:5" z-index:"15">
+      <div class="imagecontainer" style="opacity:1">
+          <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80" alt="Graphic Design" style="border-radius:50%; opacity:1" class="containerimage">
+          <div class="overlay">
+            <div class="text">Graphic Design</div>
+          </div>
+        </div>
+      </div>
+  <div class="column" style="float:right; padding-left:3px; padding-right:3px">
+    <div class="imagecontainer" style="opacity:100">
+    <img src="https://images.unsplash.com/photo-1621600411688-4be93cd68504?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80" alt="Video Editting" style="border-radius:50%" class= "containerimage">
+      <div class="overlay">
+        <div class="text">Video Editting</div>
+      </div>
+    </div>
+  </div>
+  <div class="column" style="float:right; padding-right:3px; padding-left: 3px; margin-right:0">
+    <div class="imagecontainer" style="opacity:1">
+    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Writing" style="border-radius:50%" class="containerimage">
+    <div class="overlay">
+      <div class="text">Writing</div>
+    </div>
+    </div>
+    </div>
+  <div class="column" style="float:right; padding-right:0; margin-right:0">
+    <div class="imagecontainer" style="opacity:1">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=815&q=80" alt="Social Media Management" style="border-radius:50%" class="containerimage">
+    <div class="overlay">
+      <div class="text">Social Media Management</div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+    <a name="section3"</a>
+      <div class="about" style="color:#141414; background-color:white; text-align:left; padding:15px 50px 50px 50px; margin-left:10">
+        <h3 class="about" style="text-align:left">learn more</h3>
+          <p>A dynamic, creative, and resourceful media artist experienced in concept creation, storytelling, graphic design, writing, and strategic communications. Passionate about the vital role that visual art and writing play in transmitting valuable ideas that inform and inspire, she hopes to advance her 3+ years of professional design experience in the creative industry.</p>
+        </div>
+      <br></br>
+<div class="bgimg-3">
+  <a name="section4"</a>
+    <div class="caption2" style="margin:10px 10px 10px 10px">
+        <span class ="border" style="margin:10px 10px 10px 10px">art</span>
+    </div>
+    <br>
+   </br>
+<div style="position:relative; width:90%; opacity:100%; z-index:10">
+    <div style="position:relative; color:#ddd; background-color:#282E34; text-align:center; padding:50px 80px 50px 50px; text-align:justify; margin-left: 0px; margin-right: 10px; margin-top:100px; width:90%; opacity:100%; z-index:10">
+    <p style="opacity:100%; z-index:10">My dream when I was a child was to grow up and become an artist. I have always loved to paing, draw, doodle, and generally create. I wholeheartedly believe that art was instrumental in managing my ADHD symptoms before I was diagnosed and my ability to hyperfocus on a project has allowed me to be a better artist and accomplish more than others who might become otherwise frustrated. I've also always had a rebellious streak when it comes to art and I prefer to break the rules rather than adhere to them. Creativity should not be caged. My creative passion is something that I am honored to share with my children and their tactile imaginations are far superior to what mine could ever be. <a href="https://www.scientificamerican.com/article/the-creativity-of-adhd/" style="color:salmon; font-weight: bold">Read this article about the creative advantage of ADHD</a></p>
+    </div>
+    </div>
+</div>
+<div class="bgimg-1">
+  <a name="end"</a>
+    <img src="images/the_end.png" class="end-logo"/>
+  <div class="caption1">
+    <span class="border" a href="#Home">Back to Top</a></span>
+    <div class="intro"><br>
+      <div class="rotateimg180">
+    <a href="#Home" style="display: block; rotation:180px" ><img alt="down arrow" src="http://www.cyclemon.com/images/fleche2.png"></a>
+      </div>
+    </div>
+  </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="graphic_design.html" id="Graphic_Design">Graphic Design</a>
+        <a href="video_editting.html" id="Video_Editting">Video Editting</a>
+        <a href="writing.html" id="Writing">Writing</a>
+        <a href="social_media_management.html" id="Social_Media_Management">Social Media Management</a>
+      </div>
+      <div class="navbar color-teal">
+        <a class="active" href="#Home"><ion-icon name="rocket-sharp"></ion-icon></i> Home</a>
+        <a href="#About"><ion-icon name="information-circle"></ion-icon></i> About </a>
+        <a href="contact.html"><ion-icon name="mail-sharp"></ion-icon></i> Contact</a>
+      </div>
+</div>
+<footer style="text-align:center padding: 12px 12px; background-color: #91AF90; color:white; font-family:'Josefin Slab'">
+    <div class="container color-seagreen">
+      <div class="socialrow">
+        <div class="socialcolumn" left-align="0" margin-left="0">
+          <p class="font-italic text-muted" style="font-size:15px; font-weight: normal">Please don't hesitate to reach out with feedback, questions, or ideas.</p>
+          <ul style="display:inline; list_style_type:none">
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="twitter"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="instagram"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li class= "social" display=inline style="color:white; display:inline"><a href="" target="_blank" title="vimeo"><ion-icon name="logo-vimeo"></ion-icon></a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+            <li class="mb-2"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon>Email</a></li>
+            <li class="mb-2"><a href="tel:+4733378901" class="text-muted"><ion-icon name="call"></ion-icon>Phone</a></li>
+            <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon>Questions?</a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" type="unstyled" list_style_type="none" style="color:white; ion-icon:white">
+              <li class="mb-2"><a href="#section1" class="text-muted"><ion-icon name="cafe"></ion-icon>coffee</a></li>
+              <li class="mb-2"><a href="#section2" class="text-muted"><ion-icon name="brush"></ion-icon>art</a></li>
+              <li class="mb-2"><a href="#section3" class="text-muted"><ion-icon name="construct"></ion-icon>crafts</a></li>
+              <li class="mb-2"><a href="#section4" class="text-muted"><ion-icon name="book"></ion-icon>literature</a></li>
+            </ul>
+        </div>
+        <div class="socialcolumn" style="color:white; margin-right:0px; font-weight:normal">
+          <ul class="list-unstyled mb-0" style= "list_style_type:none; list-style: none">
+            <li class="mb-2">Newsletter: Sign up to receive monthly updates</li>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><ion-icon name="paper-plane"></ion-icon></button></ul>
+              </div>
+            </div>
+          </div>
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- End -->
+  </body>
+</html>
