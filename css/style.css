@@ -205,6 +205,16 @@ h1 {
    padding-bottom: 2px;
 }
 
+.about h1::first-letter {
+   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-size: 40px;
+   font-weight: bold;
+   font-style: normal;
+   text-shadow: .8em;
+   padding-bottom: 2px;
+   padding-right: 0px;
+}
+
 p {
   z-index: 12;
 }
