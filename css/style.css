@@ -177,10 +177,11 @@ h3 {
 }
 
 h1 {
-  letter-spacing: normal;
+  letter-spacing: 1px;
   font: 50px 'Marck Script', 'Lucida Handwriting';
   color: #111;
   margin-left: 10px;
+  font-weight: lighter;
 }
 
 .about p {
