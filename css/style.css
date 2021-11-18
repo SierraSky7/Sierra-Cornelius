@@ -178,7 +178,7 @@ h3 {
 
 h1 {
   letter-spacing: normal;
-  font: 40px 'Marck Script', 'Lucida Handwriting';
+  font: 50px 'Marck Script', 'Lucida Handwriting';
   color: #111;
   margin-left: 10px;
 }
@@ -198,7 +198,7 @@ h1 {
 
 .about h3::first-letter {
    font-family: 'Marck Script', 'Lucida Handwriting';
-   font-size: 50px;
+   font-size: 60px;
    font-weight: bold;
    font-style: italic;
    text-shadow: .5em;
