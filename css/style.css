@@ -176,6 +176,13 @@ h3 {
   margin-left: 10px;
 }
 
+h1 {
+  letter-spacing: normal;
+  font: 35px 'Marck Script', 'Lucida Handwriting';
+  color: #111;
+  margin-left: 10px;
+}
+
 .about p {
     display: block;
     margin-block-start: 0px;
