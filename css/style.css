@@ -207,9 +207,9 @@ h1 {
 
 .about h1::first-letter {
    font-family: 'Marck Script', 'Lucida Handwriting';
-   font-size: 40px;
+   font-size: 70px;
    font-weight: bold;
-   font-style: normal;
+   font-style: italic;
    text-shadow: .8em;
    padding-bottom: 2px;
    padding-right: 0px;
