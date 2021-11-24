@@ -130,7 +130,7 @@ overflow-x: hidden;
 .caption2 {
   position: absolute;
   margin-left: 1px;
-  top: 5%;
+  top: 1%;
   padding: 20px 1000px 20px 20px;
   width: 100%;
   text-align: left;
@@ -143,7 +143,7 @@ overflow-x: hidden;
   width: 100%;
   background-color: #2D0611;
   color: #fff;
-  padding: 20px 1010px 30px 40px;
+  padding: 0px 1010px 30px 40px;
   font-size: 25px;
   letter-spacing: 5px;
   z-index: 10;
