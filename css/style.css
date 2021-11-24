@@ -119,8 +119,8 @@ overflow-x: hidden;
   border-radius: 30px;
 }
 
-.caption1:hover {
-  background-color: #2D0611;
+.caption1 span.border:hover {
+  background-color: #3D091B;
   opacity: .7;
 }
 
