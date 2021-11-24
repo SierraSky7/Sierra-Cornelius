@@ -114,7 +114,7 @@ overflow-x: hidden;
   color: #fff;
   padding: 15px;
   font-size: 20px;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   z-index: 10;
   border-radius: 30px;
 }
@@ -122,6 +122,8 @@ overflow-x: hidden;
 .caption1 span.border:hover {
   background-color: #3D091B;
   opacity: .7;
+  cursor: pointer;
+  color: floralwhite;
 }
 
 .caption2 {
