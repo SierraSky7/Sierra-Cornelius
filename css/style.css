@@ -139,9 +139,8 @@ overflow-x: hidden;
 .caption2 span.border {
   background-color: #2D0611;
   margin-left: 0px;
-  margin-top: 0px;
   color: #fff;
-  padding: 30px 1090px 30px 30px;
+  padding: 30px 1000px 30px 30px;
   font-size: 25px;
   letter-spacing: 5px;
   z-index: 10;
