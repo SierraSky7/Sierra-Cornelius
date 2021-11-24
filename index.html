@@ -40,7 +40,24 @@
   z-index: 7;
 }
 
-#mySidenav a:hover {
+.overlay_side_nav {
+  position: fixed;
+  right: -100px;
+  transition: 0.3s, -0.3s ease;
+  padding: 10px;
+  width: 170px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  z-index: 7;
+  right: 0;
+  opacity: 1;
+  cursor: pointer;
+  color: white;
+}
+
+#mySidenav a:hover .overlay_side_nav{
   right: 0;
   opacity: 100%;
   cursor: pointer;
