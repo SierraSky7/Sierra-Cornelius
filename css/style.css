@@ -141,11 +141,9 @@ overflow-x: hidden;
 .caption2 span.border {
   float: left;
   width: 100%;
-  margin-left: 0;
-  margin-top: 0;
   background-color: #2D0611;
   color: #fff;
-  padding: 20px 1010px 30px 15px;
+  padding: 5px 1010px 30px 5px;
   font-size: 25px;
   letter-spacing: 5px;
   z-index: 10;
