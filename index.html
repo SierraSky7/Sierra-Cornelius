@@ -25,96 +25,6 @@
     color:#91AF90;
   }
 
-#mySidenav a {
-  position: fixed;
-  right: -100px;
-  transition: 0.3s, -0.3s;
-  padding: 10px;
-  width: 170px;
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  border-radius: 5px 0 0 5px;
-  text-align: right;
-  opacity: 70%;
-  overflow-x: hidden;
-  z-index: 7;
-}
-
-.overlay_side_nav {
-  position: fixed;
-  right: 0px;
-  transition: 0.3s, -0.3s ease;
-  padding: 10px;
-  width: 170px;
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  border-radius: 5px 0 0 5px;
-  z-index: 7;
-  opacity: 1;
-  cursor: pointer;
-  color: white;
-}
-
-#mySidenav a:hover .overlay_side_nav {
-  right: 0;
-  opacity: 1;
-  cursor: pointer;
-  color: white;
-}
-
-.side_nav_text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-#Graphic_Design {
-  top: 65px;
-  height: 20px;
-  background-color: #91AF90;
-}
-
-#Graphic_Design:hover {
-  background-color: #2D0611;
-  right: 0;
-  opacity: 100%;
-  cursor: pointer;
-  color: white;
-}
-
-#Video_Editting {
-  top: 135px;
-  background-color: #6C9669;
-}
-
-#Video_Editting:hover {
-  background-color: #33141C;
-}
-
-#Writing {
-  top: 205px;
-  background-color: #4F6B40;
-}
-
-#Writing:hover {
-  background-color: #38161F;
-}
-
-#Social_Media_Management {
-  top: 275px;
-  background-color: #345127;
-}
-
-#Social_Media_Management:hover {
-  background-color: #421A25;
-}
-
 .imagecontainer {
   position: relative;
   float: center;
@@ -266,64 +176,62 @@ ion-icon {
 
        /* styling sidebar */
        .sidehoverbar a {
-           background-color: grey;
+           background-color: #91AF90;
            position: absolute;
            font-size: 22px;
            text-decoration: none;
            Color: white;
            padding: 10px;
            border-radius: 0px 25px 25px 0px;
-           left: -190px;
+           right: -190px;
            transition: 0.5s;
            opacity: 0.5;
        }
 
        /* Hover effect on sidebar */
        .sidehoverbar a:hover {
-           left: 0px;
+           right: 0px;
            opacity: 1;
-           background-color: #4CAF50;
+           background-color: #364F40;
        }
 
        /* float icons*/
        .sidehoverbar i {
-           float: right;
+           float: left;
        }
 
        /* defining position of each nav bar */
-       .article {
+       .graphic_design {
            top: 50px;
            width: 210px;
            height: 30px;
+           background-color:#421A25;
        }
 
-       .Interview {
+       .video_editting {
            top: 110px;
            width: 210px;
            height: 30px;
+           background-color:#421A25
        }
 
-       .Scripter {
+       .Writing {
            top: 170px;
            width: 210px;
            height: 30px;
+           background-color:#421A25
        }
 
-       .Suggested {
+       .Social_Management {
            top: 230px;
            width: 210px;
            height: 30px;
-       }
-
-       .Practice {
-           top: 290px;
-           width: 210px;
-           height: 30px;
+           background-color:#421A25
        }
 
        /* content margin */
        .hoverable-topic {
-           margin-left: 55px;
+           margin-right: 55px;
        }
 
 </style>
@@ -337,6 +245,12 @@ ion-icon {
         <a href="#About" style="display: block;"><img alt="down arrow" src="http://www.cyclemon.com/images/fleche2.png"></a>
       </div>
     </div>
+   </div>
+   <div class="sidehoverbar">
+       <a href="#" class="graphic_design">Graphic Design<i class="fa fa-edit"></i></a>
+       <a href="#" class="Video_editting">Video Editting<i class="fa fa-file-o"></i></a>
+       <a href="#" class="Writing">Writing<i class="fa fa-commenting"></i></a>
+       <a href="#" class="Social_Management">Social Media Management<i class="fa fa-plus"></i></a>
    </div>
 <a name="About"</a>
 <div class="about" style="color:#141414; background-color:white; text-align:left; padding:15px 50px 50px 50px; margin-left:10">
@@ -410,13 +324,6 @@ ion-icon {
       </div>
     </div>
   </div>
-    <div class="sidehoverbar">
-        <a href="#" class="article">Write an Article <i class="fa fa-edit"></i></a>
-        <a href="#" class="Interview">Interview Experience<i class="fa fa-file-o"></i></a>
-        <a href="#" class="Scripter">Technical Scripter<i class="fa fa-commenting"></i></a>
-        <a href="#" class="Suggested">Suggested Topic<i class="fa fa-plus"></i></a>
-        <a href="#" class="Practice">Coding Practice<i class="fa fa-laptop"></i></a>
-    </div>
       <div id="mySidenav" class="sidenav">
         <a href="graphic_design.html" id="Graphic_Design"><ion-icon name="color-palette-outline"></ion-icon></a>
         <div class="overlay_side_nav">
