@@ -152,9 +152,9 @@ overflow-x: hidden;
 
 .caption2::first-letter {
    font-family: 'Marck Script', 'Lucida Handwriting';
-   font-size: 40px;
+   font-size: 60px;
    font-weight: bold;
-   font-style: normal;
+   font-style: italic;
    text-shadow: .5em;
    padding-bottom: 2px;
 }
