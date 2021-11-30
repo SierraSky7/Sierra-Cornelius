@@ -409,12 +409,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  color: coral;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 ion-icon {
   white;
 }
