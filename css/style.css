@@ -254,6 +254,11 @@ p {
 .navbar a:hover {
   opacity: 1;
   font-weight: bold;
+  color: #421A25;
+}
+
+.navbar ion-icon {
+  color: darkolivegreen;
 }
 
 .active {
@@ -422,5 +427,5 @@ input[type=submit]:hover {
     }
 
 ion-icon {
-  white;
+  color: white;
 }
