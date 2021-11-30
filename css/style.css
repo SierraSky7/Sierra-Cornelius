@@ -261,6 +261,11 @@ p {
 
 .navbar ion-icon {
   color: HoneyDew;
+  opacity: 1;
+}
+
+.navbar ion-icon:hover {
+  color: YellowGreen;
 }
 
 .active {
