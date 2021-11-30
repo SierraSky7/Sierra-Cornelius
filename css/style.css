@@ -397,14 +397,8 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 
-  a {
+  a :link {
     color: white;
-    text-decoration: none;
-    z-index: 10;
-  }
-
-  a :hover {
-    color: #E3E3E3;
     text-decoration: none;
     z-index: 10;
   }
@@ -415,11 +409,17 @@ input[type=submit]:hover {
     z-index: 10;
   }
 
+  a :hover {
+    color: #E3E3E3;
+    text-decoration: none;
+    z-index: 10;
+    }
+
   a :active {
-  color: #E3E3E3;
-  text-decoration: none;
-  z-index: 10;
-}
+    color: #E3E3E3;
+    text-decoration: none;
+    z-index: 10;
+    }
 
 ion-icon {
   white;
