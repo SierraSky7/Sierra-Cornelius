@@ -152,7 +152,7 @@ overflow-x: hidden;
 
 span.border::first-letter {
    font-family: 'Marck Script', 'Lucida Handwriting';
-   font-size: 60px;
+   font-size: 40px;
    font-weight: bold;
    font-style: italic;
    text-shadow: .5em;
