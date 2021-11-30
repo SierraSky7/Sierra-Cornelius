@@ -396,15 +396,21 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+  
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
+  a:link:hover {
+    color: #E3E3E3;
+    text-decoration: none;
+  }
 
-a:visited {
-  color: #E3E3E3;
-}
+  a:link:visited {
+    color: #E3E3E3;
+    text-decoration: none;
+  }
 
 ion-icon {
   white;
