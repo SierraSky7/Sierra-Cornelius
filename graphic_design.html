@@ -5,11 +5,12 @@
     <meta name="description" content="final assignment for the class 'Intro to Web Design' at the University of Montana.">
     <meta name="author" content="Sierra Cornelius">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final</title>
+    <title>Sierra Cornelius Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Marck+Script&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+    <script src="https://kit.fontawesome.com/a893606c27.js" crossorigin="anonymous"></script>
   </head>
   <style>
   ::-webkit-scrollbar {
@@ -23,50 +24,6 @@
   ::-webkit-scrollbar-thumb {
     color:#91AF90;
   }
-
-#mySidenav a {
-  position: fixed;
-  right: -80px;
-  transition: 0.3s, -0.3s;
-  padding: 10px;
-  width: 115px;
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  border-radius: 5px 0 0 5px;
-  text-align: right;
-  opacity: 70%;
-  overflow-x: hidden;
-  z-index: 7;
-}
-
-#mySidenav a:hover {
-  right: 0;
-  opacity: 100%;
-  cursor: pointer;
-  background: #ffa875;
-  color: white;
-}
-
-#Graphic_Design {
-  top: 65px;
-  background-color: #91AF90;
-}
-
-#Video_Editting {
-  top: 135px;
-  background-color: #6C9669;
-}
-
-#Writing {
-  top: 205px;
-  background-color: #4F6B40;
-}
-
-#Social_Media_Management {
-  top: 275px;
-  background-color: #345127;
-}
 
 .imagecontainer {
   position: relative;
@@ -107,7 +64,7 @@
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -119,7 +76,7 @@
 
 .socialcolumn {
   float: left;
-  width: 20%;
+  width: 32%;
   padding: 5px;
   height: 150px;
   text-decoration: left;
@@ -147,24 +104,24 @@ footer {
   font-style: normal;
   font-weight: normal;
   line-height: 2;
+  color: white;
 }
 
 a:link {
   color: white;
-  background-color: transparent;
+  text-decoration: none;
+  z-index: 10;
+}
+
+a:hover {
+  font-weight:bolder;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
-  background-color: transparent;
+  color: #E3E3E3;
   text-decoration: none;
-}
-
-a:hover {
-  color: floralwhite;
-  background-color: transparent;
-  opacity: 80%;
+  z-index: 10;
 }
 
 ion-icon {
@@ -173,9 +130,9 @@ ion-icon {
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
-  float: left;
+  float: center;
   width: 23%;
-  padding: 10px 3px 10px 3px;
+  padding: 10px 3px 10px 7px;
 }
 
 /* Clear floats after the columns */
@@ -186,6 +143,91 @@ ion-icon {
   z-index: 12;
   opacity: 1;
 }
+
+.button {
+  background-color: #3D091B;
+  float:left;
+  border: none;
+  font-family: 'Josefin Slab';
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: #364F40;
+  color: floralwhite;
+}
+
+       /* styling sidebar */
+       .sidehoverbar a {
+           background-color: #421A25;
+           position: fixed;
+           font-size: 22px;
+           text-decoration: none;
+           color: white;
+           padding: 10px;
+           border-radius: 25px 0px 0px 25px;
+           transition: 0.5s;
+           opacity: 0.8;
+           z-index: 15;
+       }
+
+       /* Hover effect on sidebar */
+       .sidehoverbar a:hover {
+           right: 0px;
+           opacity: 1;
+           background-color: #421A25;
+       }
+
+       /* float icons*/
+       .sidehoverbar i {
+           float: left;
+       }
+
+       /* defining position of each nav bar */
+       .graphic_design {
+           top: 58px;
+           right: -170px;
+           width: 210px;
+           height: 30px;
+           background-color: #421A25;
+       }
+
+       .Video_editting {
+           top: 118px;
+           right: -170px;
+           width: 210px;
+           height: 30px;
+           background-color: #421A25;
+       }
+
+       .Writing {
+           top: 178px;
+           right: -170px;
+           width: 210px;
+           height: 30px;
+           background-color: #421A25;
+       }
+
+       .Social_Management {
+           top: 238px;
+           right: -255px;
+           width: 300px;
+           height: 30px;
+           background-color: #421A25;
+       }
+
+       /* content margin */
+       .hoverable-topic {
+           margin-right: 55px;
+       }
 
 </style>
     <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
