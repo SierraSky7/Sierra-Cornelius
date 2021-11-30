@@ -31,7 +31,7 @@ div {
  left:20%;
  right: 20%;
  top: 35%;
- z-index: 6;
+ z-index: 8;
  width: 700px;
  padding: 1px;
  text-align: center;
@@ -145,7 +145,7 @@ overflow-x: hidden;
   padding: 0px 1010px 10px 15px;
   font-size: 25px;
   letter-spacing: 5px;
-  z-index: 10;
+  z-index: 12;
 }
 
 span.border::first-letter {
@@ -174,7 +174,7 @@ span.border::first-letter {
   padding: 40px;
   font-size: 20px;
   letter-spacing: 10px;
-  z-index: 10;
+  z-index: 12;
 }
 
 h3 {
@@ -249,7 +249,7 @@ p {
   text-decoration: none;
   font-size: 20px;
   font-family: 'Marck Script', 'Lucida Handwriting';
-  z-index: 15;
+  z-index: 12;
   opacity: none;
 }
 
@@ -262,6 +262,7 @@ p {
 .navbar ion-icon {
   color: HoneyDew;
   opacity: none;
+  z-index: 12;
 }
 
 .navbar ion-icon:hover {
