@@ -259,8 +259,7 @@ p {
 }
 
 .active {
-  background-color: #330814;
-  opacity: 85%;
+  font-style:italic;
 }
 
 @media screen and (max-width: 500px) {
