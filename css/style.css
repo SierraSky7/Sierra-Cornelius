@@ -134,6 +134,7 @@ overflow-x: hidden;
   text-align: left;
   color: #000;
   z-index: 10;
+  opacity: .7;
 }
 
 .caption2 span.border {
@@ -145,7 +146,6 @@ overflow-x: hidden;
   font-size: 25px;
   letter-spacing: 5px;
   z-index: 10;
-  opacity: .6;
 }
 
 span.border::first-letter {
@@ -397,23 +397,29 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 
-  a:link {
+  a {
     color: white;
     text-decoration: none;
     z-index: 10;
   }
 
-  a:link:hover {
+  a :hover {
     color: #E3E3E3;
     text-decoration: none;
     z-index: 10;
   }
 
-  a:link:visited {
+  a :visited {
     color: #E3E3E3;
     text-decoration: none;
     z-index: 10;
   }
+
+  a :active {
+  color: #E3E3E3;
+  text-decoration: none;
+  z-index: 10;
+}
 
 ion-icon {
   white;
