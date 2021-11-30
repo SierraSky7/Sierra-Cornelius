@@ -147,6 +147,7 @@ overflow-x: hidden;
   font-size: 25px;
   letter-spacing: 5px;
   z-index: 10;
+  opacity: .8;
 }
 
 span.border::first-letter {
@@ -239,7 +240,7 @@ p {
   font-family: 'Marck Script', 'Lucida Handwriting';
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 10;
 }
 
 .navbar a {
@@ -399,14 +400,11 @@ input[type=submit]:hover {
 
 a:link {
   color: white;
-  background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
+  color: #E3E3E3;
 }
 
 ion-icon {
