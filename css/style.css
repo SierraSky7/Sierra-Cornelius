@@ -260,6 +260,8 @@ p {
 
 .active {
   font-style: italic;
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
