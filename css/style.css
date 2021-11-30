@@ -27,14 +27,13 @@ div {
 }
 
 .end-logo {
- background-image: url(images/the_end.png);
  color: white;
  position: absolute;
  margin: auto;
  left: 15%;
  right: 10%;
  top: 20%;
- z-index: 3;
+ z-index: 6;
  width: 700px;
  padding: 1px;
  text-align: center;
