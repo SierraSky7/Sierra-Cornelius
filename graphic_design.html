@@ -45,8 +45,7 @@
   /* The Modal (background) */
   .modal {
     display: none;
-    align-self: center;
-    left: 15%;
+    left: 10%;
     position: fixed;
     padding-top: 100px;
     top: 0;
@@ -106,6 +105,8 @@
     padding: 16px;
     margin-top: -50px;
     color: #2D0611;
+    background-color:floralwhite;
+    opacity: .6;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -162,7 +163,7 @@
 
 .imagecontainer {
   position: relative;
-  float: center;
+  float: left;
   width: 100%;
   z-index: 10;
   opacity: 1;
@@ -381,6 +382,8 @@ ion-icon {
             <div class="column">
               <img src="images/GHA_savethedate.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
             </div>
+          </div>
+        </div>
         <div id="myModal" class="modal">
         <span class="close cursor" onclick="closeModal()">&times;</span>
           <div class="modal-content">
@@ -401,8 +404,6 @@ ion-icon {
           </div>
         </div>
       </div>
-    </div>
-  </div>
     <div class="row">
         <div class="column" style="float:left; padding-right:3px; padding-left:3px; padding-top:10px; padding-bottom:20px; margin-left:10">
           <div class="imagecontainer" style="opacity:1">
