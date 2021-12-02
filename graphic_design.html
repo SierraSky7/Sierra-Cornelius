@@ -25,23 +25,31 @@
     color:#91AF90;
   }
 
-  #myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-
-  #myImg:hover {
-    opacity: 0.7;
-  }
-
   #Townhallimg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
   }
 
-  #Townhallimg:hover {opacity: 0.7;}
+  #Townhallimg:hover {
+    opacity: 0.7;
+  }
+
+  #GHAimg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #GHAimg:hover {opacity: 0.7;}
+
+  #GHAimg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #GHAimg2:hover {opacity: 0.7;}
 
   /* The Modal (background) */
   .modal {
@@ -341,7 +349,7 @@ ion-icon {
     <p style="opacity:1; z-index:15; width:100%; background-color:transparent">
       <div class="row" style="margin-left:15px">
       <div class="column" style="float:left; padding-right:3px; padding-left:3px; padding-top:10px; padding-bottom:20px; margin-left:15; z-index:15">
-        <div class="imagecontainer" style="opacity:1"><img id="myImg" src="images/Townhall_invitation.jpg" alt="Townhall Invitation" style="width:100%; max-width:300px">
+        <div class="imagecontainer" style="opacity:1"><img id="Townhallimg" src="images/Townhall_invitation.jpg" alt="Townhall Invitation" style="width:100%; max-width:300px">
           <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
@@ -350,19 +358,19 @@ ion-icon {
       </div>
     </div>
         <div class="column" style="float:left; padding-right:3px; padding-left:3px; padding-top:10px; padding-bottom:20px; margin-left:15; z-index:15">
-          <div class="imagecontainer" style="opacity:1"><img id="myImg" src="images/GHAs_invitation.jpg" alt="Governor's Humanities Awards Invitation" style="width:100%; max-width:300px">
+          <div class="imagecontainer" style="opacity:1"><img id="GHAimg" src="images/GHAs_invitation.jpg" alt="Governor's Humanities Awards Invitation" style="width:100%; max-width:300px">
             <div id="myModal" class="modal">
               <span class="close">&times;</span>
-              <img class="modal-content" id="img01">
+              <img class="modal-content" id="img02">
               <div id="caption"></div>
             </div>
           </div>
         </div>
         <div class="column" style="float:left; padding-right:3px; padding-left:3px; padding-top:10px; padding-bottom:20px; margin-left:15; z-index:15">
-          <div class="imagecontainer" style="opacity:1"><img id="myImg" src="images/GHA_savethedate.jpg" alt="Governor's Humanities Awards Invitation" style="width:100%;max-width:300px">
+          <div class="imagecontainer" style="opacity:1"><img id="GHAimg2" src="images/GHA_savethedate.jpg" alt="Governor's Humanities Awards Invitation" style="width:100%;max-width:300px">
             <div id="myModal" class="modal">
               <span class="close">&times;</span>
-              <img class="modal-content" id="img01">
+              <img class="modal-content" id="img03">
               <div id="caption"></div>
             </div>
           </div>
@@ -453,14 +461,18 @@ ion-icon {
           <script>
             var modal = document.getElementById("myModal");
             // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
+            var img = document.getElementById("Townhallimg");
+                    var img = document.getElementById("GHAimg");
+                            var img = document.getElementById("GHAimg2");
             var modalImg = document.getElementById("img01");
+            var modalImg = document.getElementById("img02");
+            var modalImg = document.getElementById("img03");
             var captionText = document.getElementById("caption");
             img.onclick = function(){
             modal.style.display = "block";
             modalImg.src = this.src;
             captionText.innerHTML = this.alt;
-              }              
+              }
               // Get the <span> element that closes the modal
               var span = document.getElementsByClassName("close")[0];
               // When the user clicks on <span> (x), close the modal
