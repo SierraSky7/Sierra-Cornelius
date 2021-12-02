@@ -104,19 +104,18 @@
     to {transform:scale(1)}
   }
 
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
+  .closeimg {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
   }
 
-  .close:hover,
-  .close:focus {
+  .closeimg:hover,
+  .closeimg:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -362,7 +361,7 @@ ion-icon {
           <div class="imagecontainer" style="opacity:1">
             <img id="GHAimg" src="images/GHAs_invitation.jpg" alt="Governor's Humanities Awards Invitation" style="width:100%; max-width:300px">
             <div id="myModal2" class="modal">
-              <span class="close">&times;</span>
+              <span class="closeimg" onclick="document.getElementById('myModal2').style.display='none'">×</span>
               <img class="modal-content" id="img02">
               <div id="caption"></div>
             </div>
