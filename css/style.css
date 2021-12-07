@@ -419,13 +419,13 @@ p {
 	color: white;
 	padding: 0;
   z-index: 5;
-  margin-top: 25%
+  margin-top: 18%;
 }
 
 .intro a {
 	border: none;
   display: block;
-  top: 80%;
+  top: 60%;
 	position: relative;
 	left: 45%;
   right: 45%;
