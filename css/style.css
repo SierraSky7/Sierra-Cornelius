@@ -5,6 +5,7 @@ body, html {
   font-family: 'Marck Script', 'Lucida Handwriting';
   color: #777;
   overflow-x: hidden;
+  z-index: 0;
 }
 
 div {
