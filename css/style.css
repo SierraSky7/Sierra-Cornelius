@@ -236,6 +236,12 @@ overflow-x: hidden;
   z-index: 6;
 }
 
+.caption a:link {
+  color: white;
+  text-decoration: none;
+  z-index: 6;
+}
+
 .caption2 {
   position: absolute;
   margin: 0px;
