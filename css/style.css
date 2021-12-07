@@ -412,37 +412,6 @@ p {
   overflow: hidden;
 }
 
-/* This is just for the little down arrow under "scroll down" */
-.intro {
-  display: block;
-	position: relative;
-	color: white;
-	padding: 0;
-  z-index: 5;
-  margin-top: 18%;
-}
-
-.intro a {
-	border: none;
-  display: block;
-  top: 60%;
-	position: relative;
-	left: 45%;
-  right: 45%;
-	width: 25px;
-  height: 25px;
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-o-transition:all 0.2s ease-in-out;
-}
-
-.intro img:hover {
-	opacity: 100;
-  image-orientation: 90deg;
-  box-shadow: 0 0 10px #ccc;
-  width: 30px;
-}
-
 * {
   box-sizing: border-box;
 }
