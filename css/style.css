@@ -225,7 +225,7 @@ overflow-x: hidden;
   border-radius: 30px;
 }
 
-.caption1 span.border:hover {
+  .caption1 span.border a:hover {
   background-color: #364F40;
   opacity: 1;
   cursor: pointer;
