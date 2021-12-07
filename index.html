@@ -25,22 +25,39 @@
     color: #91AF90;
   }
 
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: center;
+    width: 23%;
+    padding: 10px 3px 10px 7px;
+    z-index: 12;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    opacity: 1;
+    z-index: 12;
+  }
+  
 .imagecontainer {
   position: relative;
   float: center;
   width: 100%;
-  z-index: 10;
   opacity: 1;
   align-content: center;
+  z-index: 10;
 }
 
 .containerimage {
   display: block;
   width: 200px;
   height: 200px;
-  z-index: 12;
   cursor: pointer;
   float: left;
+  z-index: 12;
 }
 
 .overlay {
@@ -58,7 +75,7 @@
   z-index: 15;
 }
 
-.imagecontainer:hover .overlay {
+.containerimage:hover .overlay {
   opacity: .9;
   cursor: pointer;
   z-index: 15;
@@ -135,23 +152,6 @@ footer a:visited {
 
 ion-icon {
   white;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: center;
-  width: 23%;
-  padding: 10px 3px 10px 7px;
-  z-index: 12;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  z-index: 12;
-  opacity: 1;
 }
 
 .button {
