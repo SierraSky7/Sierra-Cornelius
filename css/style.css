@@ -12,6 +12,10 @@ div {
   display: block;
 }
 
+.printdesigns {
+  display: inline-block;
+}
+
  /*Modal Display*/
 .row > .column {
   padding: 0 10px;
@@ -26,7 +30,7 @@ div {
   opacity: 1;
 }
 
-.column {
+.printdesigns .column {
   float: left;
   padding-left: 20px;
   padding-right: 10px;
