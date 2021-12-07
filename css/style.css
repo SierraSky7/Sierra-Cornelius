@@ -421,7 +421,7 @@ p {
 	position: relative;
 	color: white;
 	padding: 0;
-  z-index: 15;
+  z-index: 5;
   margin-top: 25%
 }
 
