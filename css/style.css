@@ -35,6 +35,10 @@ section, h1 {
   padding: 10px;
 }
 
+.grid img {
+  width: 50%;
+}
+
  /*Modal Display*/
 .row > .column {
   padding: 0 10px;
