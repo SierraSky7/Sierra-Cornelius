@@ -18,24 +18,26 @@ div {
   z-index: 12;
 }
 
-section,h1 {
+section, h1 {
   padding: 0 1em;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4,150px);  /* 3 columns */
-  grid-template-rows: repeat(4,150px); /* 3 rows  */
+  align-self: center;
+  align-items: center;
+  grid-template-columns: repeat(4,150px);
+  grid-template-rows: repeat(4,150px);
   grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
 }
 
-.grid-item{
+.grid-item {
   border:thin gray solid;
   padding:10px;
 }
 
-img {
-  width: 100%;
+.grid img {
+  width: 40%;
 }
 
  /*Modal Display*/
