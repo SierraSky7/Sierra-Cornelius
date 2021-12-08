@@ -69,8 +69,8 @@ section, h1 {
   position: fixed;
   padding-top: 100px;
   top: 0;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   overflow: auto;
   background-color: black;
   opacity: .95;
@@ -83,7 +83,7 @@ section, h1 {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 50%;
+  height: 100%;
   max-width: 800px;
   z-index: 50;
   opacity: 1;
