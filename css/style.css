@@ -35,10 +35,6 @@ section, h1 {
   padding: 10px;
 }
 
-.grid img {
-  width: 100%;
-}
-
  /*Modal Display*/
 .row > .column {
   padding: 0 10px;
@@ -570,15 +566,6 @@ p {
 
 .main {
   margin-left: 200px;
-}
-
-.grid img {
-  border: 10px color: transparent;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 20%;
-  display: grid;
-  align-items: center;
-  overflow: hidden;
 }
 
 * {
