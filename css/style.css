@@ -26,18 +26,18 @@ section, h1 {
   display: grid;
   align-self: center;
   align-items: center;
-  grid-template-columns: repeat(4,150px);
-  grid-template-rows: repeat(4,150px);
-  grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  grid-template-columns: repeat(4,400px);
+  grid-template-rows: repeat(4,400px);
+  grid-gap: 50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
 }
 
 .grid-item {
-  border:thin gray solid;
-  padding:10px;
+  border: thin gray solid;
+  padding: 10px;
 }
 
 .grid img {
-  width: 40%;
+  width: 100%;
 }
 
  /*Modal Display*/
