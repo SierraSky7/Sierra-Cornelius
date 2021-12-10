@@ -328,6 +328,9 @@ input:nth-of-type(8):checked ~ main#carousel {
 
 .mediakit {
 display: inline;
+padding-left: 20px;
+padding-right: 10px;
+z-index: 12;
 }
 
 .mediakit .row {
