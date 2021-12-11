@@ -341,7 +341,7 @@ z-index: 12;
 .mediakit .column {
   flex: 50%;
   padding: 10px;
-  height: 600px;
+  width: 100%;
 }
 
 .bg-logo {
