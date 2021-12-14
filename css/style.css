@@ -701,6 +701,65 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  opacity: 1;
+  z-index: 10;
+}
+
+.imagecontainer {
+position: relative;
+float: center;
+width: 100%;
+opacity: 1;
+align-content: center;
+z-index: 11;
+}
+
+.containerimage {
+display: block;
+width: 200px;
+height: 200px;
+cursor: pointer;
+float: left;
+z-index: 12;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 200px;
+width: 200px;
+opacity: 0;
+transition: .5s ease;
+background-color: #2D0611;
+border-radius: 50%;
+z-index: 15;
+}
+
+.imagecontainer .overlay a:hover {
+opacity: .9;
+cursor: pointer;
+z-index: 15;
+}
+
+.text {
+color: white;
+font-size: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
 
 ion-icon {
   color: white;
