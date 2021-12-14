@@ -371,7 +371,7 @@ z-index: 12;
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
-  opacity: 0.75;
+  opacity: 0.95;
   left: 0;
   right: 0;
   background-attachment: fixed;
