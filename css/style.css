@@ -748,7 +748,7 @@ cursor: pointer;
 z-index: 15;
 }
 
-.text {
+.imagecontainer .overlay .text {
 color: white;
 font-size: 30px;
 position: absolute;
@@ -758,6 +758,7 @@ left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 text-align: center;
+z-index: 15;
 }
 
 ion-icon {
