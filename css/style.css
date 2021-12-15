@@ -742,13 +742,13 @@ border-radius: 50%;
 z-index: 15;
 }
 
-.imagecontainer .overlay a:hover {
+.overlay a:hover {
 opacity: .9;
 cursor: pointer;
 z-index: 15;
 }
 
-.imagecontainer .overlay .text {
+.text {
 color: white;
 font-size: 30px;
 position: absolute;
