@@ -525,23 +525,25 @@ span.border::first-letter {
 }
 
 .caption3 {
-  position: absolute;
-  margin: 20px;
-  top: 5%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  z-index: 10;
+  background-color: #3D091B;
+  opacity: .8;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  z-index: 8;
+  border-radius: 15px;
 }
 
 .caption3 span.border {
-  background-color: #111;
-  margin: 20px;
+  background-color: #3D091B;
+  opacity: .8;
   color: #fff;
-  padding: 40px;
+  padding: 20px;
   font-size: 20px;
-  letter-spacing: 10px;
-  z-index: 12;
+  letter-spacing: 5px;
+  z-index: 8;
+  border-radius: 15px;
 }
 
 h3 {
