@@ -564,6 +564,13 @@ h1 {
   font-weight: lighter;
 }
 
+h2 {
+  letter-spacing: 5px;
+  font: 25px 'Marck Script', 'Lucida Handwriting';
+  color: #eee;
+  margin-top: 29px;
+}
+
 .about p {
     display: block;
     margin-block-start: 0px;
