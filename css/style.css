@@ -694,13 +694,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -715,7 +708,7 @@ float: center;
 width: 100%;
 opacity: 1;
 align-content: center;
-z-index: 11;
+z-index: 15;
 }
 
 .containerimage {
@@ -724,7 +717,7 @@ width: 200px;
 height: 200px;
 cursor: pointer;
 float: left;
-z-index: 12;
+z-index: 20;
 }
 
 .overlay {
@@ -739,7 +732,7 @@ opacity: 0;
 transition: .5s ease;
 background-color: #2D0611;
 border-radius: 50%;
-z-index: 15;
+z-index: 25;
 }
 
 .overlay a:hover {
