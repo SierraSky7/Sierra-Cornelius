@@ -71,7 +71,7 @@ section, h1 {
   overflow: auto;
   background-color: black;
   opacity: .95;
-  z-index: 30;
+  z-index: 20;
 }
 
 /* Modal Content */
@@ -81,7 +81,7 @@ section, h1 {
   margin: auto;
   padding: 0;
   max-width: 800px;
-  z-index: 50;
+  z-index: 21;
   opacity: 1;
 }
 
@@ -93,7 +93,7 @@ section, h1 {
   right: 100px;
   font-size: 60px;
   font-weight: bold;
-  z-index: 50;
+  z-index: 25;
 }
 
 .close:hover,
@@ -105,7 +105,7 @@ section, h1 {
 
 .mySlides {
   display: none;
-  z-index: 50;
+  z-index: 25;
 }
 
 /* Next & previous buttons */
@@ -141,7 +141,7 @@ section, h1 {
 
 img {
   margin-bottom: -4px;
-  z-index: 50;
+  z-index: 25;
 }
 
 .caption-container {
@@ -162,13 +162,13 @@ img {
 
 img .hover-shadow {
   transition: 0.3s;
-  z-index: 50;
+  z-index: 25;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: zoom-in;
-  z-index: 50;
+  z-index: 25;
 }
 
 /* 100% Image Width on Smaller Screens */
