@@ -636,7 +636,7 @@ p {
   background-color: #364F40;
   opacity: .85;
   overflow: hidden;
-  font-family: 'Marck Script', 'Lucida Handwriting';
+  font-family: 'Amatic SC';
   top: 0;
   left: 0;
   z-index: 15;
@@ -648,7 +648,7 @@ p {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Marck Script', 'Lucida Handwriting';
+  font-family: 'Amatic SC';
   z-index: 15;
   opacity: none;
 }
