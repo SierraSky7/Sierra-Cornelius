@@ -526,6 +526,7 @@ span.border::first-letter {
 
 .caption3 {
   position: absolute;
+  font-family: 'Josefin Slab';
   left: 0;
   top: 4%;
   width: 100%;
@@ -537,6 +538,7 @@ span.border::first-letter {
 
 .caption3 span.border {
   background-color: #3D091B;
+  font-family: 'Josefin Slab';
   opacity: .8;
   color: #fff;
   padding: 20px;
