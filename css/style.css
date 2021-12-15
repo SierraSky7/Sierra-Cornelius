@@ -604,6 +604,39 @@ h2 {
    font-variant: small-caps;
 }
 
+.heading p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 16px;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.heading h3::first-letter {
+   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-size: 60px;
+   font-weight: bold;
+   font-style: italic;
+   text-shadow: .5em;
+   padding-bottom: 2px;
+}
+
+.heading h1::first-letter {
+   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-size: 70px;
+   font-weight: bold;
+   font-style: italic;
+   text-shadow: .8em;
+   padding-bottom: 2px;
+   padding-right: 0px;
+   font-variant: small-caps;
+}
+
 p {
   z-index: 8;
 }
