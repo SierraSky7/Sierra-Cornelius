@@ -533,7 +533,7 @@ span.border::first-letter {
   text-align: center;
   color: #000;
   z-index: 8;
-  margin: 20px;
+  margin: -7px;
   margin-top: -5%;
 }
 
@@ -542,9 +542,9 @@ span.border::first-letter {
   font-family: 'Josefin Slab';
   opacity: .8;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   z-index: 8;
   border-radius: 15px;
 }
