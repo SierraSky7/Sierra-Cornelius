@@ -85,7 +85,7 @@ section, h1 {
   height: 100%;
   overflow: auto;
   background-color: black;
-  opacity: .95;
+  opacity: 1;
   z-index: 20;
 }
 
