@@ -36,6 +36,21 @@ section, h1 {
   width: 100%;
 }
 
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  grid-template-rows: repeat(1, 350px);
+  grid-gap: 20px 20px;
+}
+
+.grid1-item {
+  padding: 10px;
+}
+
+.grid1 img {
+  width: 100%;
+}
+
  /*Modal Display*/
 .row > .column {
   padding: 0 10px;
