@@ -24,7 +24,7 @@ section, h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 560px);
-  grid-template-rows: repeat(5, 350px);
+  grid-template-rows: repeat(3, 350px);
   grid-gap: 20px 20px;
 }
 
