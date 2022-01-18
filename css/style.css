@@ -586,6 +586,13 @@ h2 {
   margin-top: 29px;
 }
 
+h4 {
+  letter-spacing: 5px;
+  font: 20px 'Amatic SC';
+  color: #eee;
+  margin-top: 29px;
+}
+
 .about p {
     display: block;
     margin-block-start: 0px;
