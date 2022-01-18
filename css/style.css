@@ -588,7 +588,8 @@ h2 {
 
 h4 {
   letter-spacing: 5px;
-  font: 20px 'Amatic SC';
+  font-size: 30px;
+  font-family: 'Amatic SC';
   color: #fff;
   margin-top: 29px;
 }
