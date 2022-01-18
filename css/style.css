@@ -591,7 +591,8 @@ h4 {
   font-size: 30px;
   font-family: 'Amatic SC';
   color: #222428;
-  margin-top: 29px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .about p {
