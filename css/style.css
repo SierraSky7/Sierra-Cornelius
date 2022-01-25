@@ -766,8 +766,8 @@ z-index: 15;
 
 .containerimage {
 display: block;
-width: 200px;
-height: 200px;
+width: 300px;
+height: 300px;
 cursor: pointer;
 float: left;
 z-index: 20;
@@ -779,8 +779,8 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-height: 200px;
-width: 200px;
+height: 300px;
+width: 300px;
 opacity: 0;
 transition: .5s ease;
 background-color: #2D0611;
@@ -796,7 +796,8 @@ z-index: 25;
 
 .text {
 color: white;
-font-size: 30px;
+font-size: 40px;
+font-family: 'Amatic SC';
 position: absolute;
 top: 50%;
 left: 50%;
