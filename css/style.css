@@ -537,7 +537,7 @@ span.border::first-letter {
 
 .caption3 {
   position: absolute;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   left: 0;
   top: 5%;
   width: 100%;
@@ -550,7 +550,7 @@ span.border::first-letter {
 
 .caption3 span.border {
   background-color: #3D091B;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   opacity: .8;
   color: #fff;
   padding: 10px;
@@ -598,7 +598,7 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 16px;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Slab', serif;
     font-style: normal;
     font-weight: bold;
     line-height: 2;
@@ -631,7 +631,7 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 16px;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 2;
@@ -656,7 +656,7 @@ p {
   background-color: #364F40;
   opacity: .85;
   overflow: hidden;
-  font-family: 'Amatic SC';
+  font-family: 'Amatic SC', cursive;
   top: 0;
   left: 0;
   z-index: 15;
@@ -668,7 +668,7 @@ p {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Amatic SC';
+  font-family: 'Amatic SC', cursive;
   z-index: 15;
   opacity: none;
 }
@@ -797,7 +797,7 @@ z-index: 25;
 .text {
 color: white;
 font-size: 40px;
-font-family: 'Amatic SC';
+font-family: 'Amatic SC', cursive;
 position: absolute;
 top: 50%;
 left: 50%;
