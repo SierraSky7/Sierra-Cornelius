@@ -26,7 +26,7 @@
     color: #91AF90;
   }
 
-  .description-overlay {
+  .overlay-description {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
@@ -41,10 +41,10 @@
     text-align: center;
   }
 
-  img:hover .description-overlay {
+  .column:hover .overlay-description {
     opacity: 1;
   }
-  
+
 .socialcolumn {
   float: left;
   width: 32%;
@@ -226,9 +226,11 @@ ion-icon {
         <div class="row">
           <div class="column">
             <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 10px" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <div class="overlay-description">description</div>
           </div>
           <div class="column">
             <img src="images/writings/meadowlark.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <div class="overlay-description">description</div>
           </div>
           </div>
           <div id="myModal" class="modal">
@@ -267,9 +269,11 @@ ion-icon {
           <div class="row">
             <div class="column">
               <img src="images/writings/DIY_12.jpg" style="width:90%; padding:0px 0px 0px 10px" onclick="openModal();currentSlide(3)" class="hover-shadow">
+              <div class="overlay-description">description</div>
             </div>
             <div class="column" style="margin-top:-180px">
               <img src="images/writings/DIY_25.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+              <div class="overlay-description">description</div>
             </div>
             </div>
         </div>
