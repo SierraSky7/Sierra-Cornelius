@@ -539,6 +539,7 @@ span.border::first-letter {
   position: absolute;
   font-family: 'Josefin Sans', sans-serif;
   top: 5%;
+  margin-top: -50px;
   width: 100%;
   text-align: center;
   color: #000;
