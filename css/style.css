@@ -538,14 +538,11 @@ span.border::first-letter {
 .caption3 {
   position: absolute;
   font-family: 'Josefin Sans', sans-serif;
-  left: 0;
   top: 5%;
   width: 100%;
   text-align: center;
   color: #000;
   z-index: 8;
-  margin: -7px;
-  margin-top: -5%;
 }
 
 .caption3 span.border {
