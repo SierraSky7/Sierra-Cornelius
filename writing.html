@@ -28,21 +28,21 @@
 
   .overlay-description {
     position: absolute;
-    margin-left: 22px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 23px;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 45%;
+    width: 49%;
     transition: .5s ease;
-    opacity:0;
+    opacity: 0;
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
-  }
+}
 
   .column:hover .overlay-description {
     opacity: 1;
@@ -233,7 +233,7 @@ ion-icon {
           </div>
           <div class="column">
             <img src="images/writings/meadowlark.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
-            <div class="overlay-description">description</div>
+            <div class="overlay-description" style="margin-bottom: 166px;z-index: 20;">description</div>
           </div>
           </div>
           <div id="myModal" class="modal">
