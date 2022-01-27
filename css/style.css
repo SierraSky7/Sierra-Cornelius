@@ -39,7 +39,7 @@ section, h1 {
 .grid1 {
   display: grid;
   grid-template-columns: repeat(2, 560px);
-  grid-template-rows: repeat(1, 350px);
+  grid-template-rows: repeat(2, 350px);
   grid-gap: 20px 20px;
 }
 
