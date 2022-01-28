@@ -1,19 +1,15 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "email@example.com"; // this is your Email address
+    $to = "sierracornelius07@gmail.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
+    $name = $_POST['name'];
+    $organization = $_POST['organization'];
     $subject = "Form submission";
-    $subject2 = "Copy of your form submission";
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $message = $name. " wrote the following:" . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    echo "Thank you " . $name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
 ?>
@@ -308,13 +304,15 @@ ion-icon {
     </div>
         <div class="row">
         <div class="column-c">
-          <form method="post" name="feedback" action="feedback.php">
-            <label for="fname" style="color:white">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="First and Last Name">
+          <form method="post" action="">
+            <label for="fname" style="color:white">Who you are</label>
+            <input type="text" id="fname" name="name" placeholder="Your First and Last Name">
             <label for="lname" style="color:white">Organization if applicable</label>
-            <input type="text" id="lname" name="lastname" placeholder="ABC Company">
-            <label for="country" style="color:white">Do you have a question, comment, or suggestion?</label>
-            <select id="country" name="country">
+            <input type="text" id="orgname" name="organization" placeholder="ABC Company">
+            <label for="email" style="color:white">Your Email</label>
+            <input type="text" id="email" name="email" placeholder="example@email.com">
+            <label for="ftype" style="color:white">Do you have a question, comment, or suggestion?</label>
+            <select id="ftype" name="ftype">
               <option value="canada">Question</option>
               <option value="usa">Comment</option>
               <option value="usa">Suggestion</option>
