@@ -170,7 +170,6 @@ img {
   opacity: 0.6;
 }
 
-.active,
 .demo:hover {
   opacity: 1;
 }
@@ -693,12 +692,6 @@ p {
 
 .navbar ion-icon:hover {
   color: #c7dbbf;
-}
-
-.active {
-  font-style: italic;
-  text-decoration: none;
-  color: white;
 }
 
 @media screen and (max-width: 500px) {
