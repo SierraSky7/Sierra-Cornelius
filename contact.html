@@ -232,6 +232,7 @@ ion-icon {
          margin-top: 25px;
          padding: 20px;
          z-index: 5;
+         color: white;
        }
 
        /* Clear floats after the columns */
@@ -251,7 +252,6 @@ ion-icon {
          z-index: 5;
          padding: 8px;
          background-color: black;
-         color: white;
          padding: 8px;
        }
 
@@ -287,22 +287,22 @@ ion-icon {
    <div class="bgimg-5_1" style="top:0; left:0; right:0">
      <div class="container" style="text-align:center; margin-top:50px; margin-bottom:20px">
     <div class="heading" style="align:left;padding-bottom:2px; margin-bottom:10px">
-      <h2 class="heading" style="text-align:center; background-color:#161616">Thank you for sharing your feedback!</h2>
+      <h2 class="heading" style="text-align:center; background-color:#161616">I appreciate your feedback!</h2>
     </div>
         <div class="row">
         <div class="column-c">
           <form action="/action_page.php">
-            <label for="fname">Name</label>
+            <label for="fname" style="color:white">Name</label>
             <input type="text" id="fname" name="firstname" placeholder="First and Last Name">
-            <label for="lname">Organization if applicable</label>
+            <label for="lname" style="color:white">Organization if applicable</label>
             <input type="text" id="lname" name="lastname" placeholder="ABC Company">
-            <label for="country">Do you have a question, comment, or suggestion?</label>
+            <label for="country" style="color:white">Do you have a question, comment, or suggestion?</label>
             <select id="country" name="country">
               <option value="canada">Question</option>
               <option value="usa">Comment</option>
               <option value="usa">Suggestion</option>
             </select>
-            <label for="subject">Let's hear it...</label>
+            <label for="subject" style="color:white">Well, let's hear it now...</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
             <input type="submit" value="Submit">
           </form>
