@@ -313,36 +313,76 @@ ion-icon {
       <a href="index.html#About"><ion-icon name="information-circle"></ion-icon></i> About Me</a>
       <a href="#contact_section"><ion-icon name="mail-sharp"></ion-icon></i> Contact Me</a>
     </div>
-  <footer style="text-align:center; padding:12px 12px; background-color:#2D0611; color:white; font-family:'Josefin Sans', sans-serif">
-  <a name="contact_section"</a>
-  <div class="container">
-    <div class="socialrow">
-      <div class="socialcolumn" style="margin-left:20">
-        <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
-          <li class="mb-2" style="font-size:20px; font-weight:bold"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"> Contact Me</a></li>
-          <li class="mb-2"> Send a message | <a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon> sierracornelius07@gmail.com</li>
-          <li class="mb-2"> Call me           | <ion-icon name="call"></ion-icon> 406.880.3859</li>
-            <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon> More Questions?</a></li>
-        </ul>
+    <footer style="text-align:center; padding:12px 12px; background-color:#2D0611; color:white; font-family:'Josefin Sans', sans-serif">
+      <a name="contact_section"</a>
+        <div class="container">
+          <div class="socialrow">
+            <div class="socialcolumn" style="margin-left:20">
+              <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+                <li class="mb-2" style="font-size:20px; font-weight:bold"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"> Contact Me</a></li>
+                <li class="mb-2"> Send a message | <a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon> sierracornelius07@gmail.com</li>
+                <li class="mb-2"> Call me           | <ion-icon name="call"></ion-icon> 406.880.3859</li>
+                  <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon> More Questions?</a></li>
+              </ul>
+            </div>
+            <div class="socialcolumn" style="font-weight:normal">
+              <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+                <br>
+                <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="document-text-outline"></ion-icon> Resume</a></li>
+                <li class="mb-2"><a href="https://www.linkedin.com/in/sierracornelius/" class="text-muted"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn Page</a></li>
+              </ul>
+            </div>
+            <div class="socialcolumn" style="font-weight:normal">
+              <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+                  <li class="mb-2"><a href="graphic_design.html" class="text-muted"><ion-icon name="color-palette"></ion-icon> graphic design</a></li>
+                  <li class="mb-2"><a href="video_editing.html" class="text-muted"><ion-icon name="videocam"></ion-icon> video editing</a></li>
+                  <li class="mb-2"><a href="writing.html" class="text-muted"><ion-icon name="pencil-outline"></ion-icon> writing</a></li>
+                  <li class="mb-2"><a href="social_media_management.html" class="text-muted"><ion-icon name="people"></ion-icon> social media management</a></li>
+              </ul>
+          </div>
+        </div>
       </div>
-      <div class="socialcolumn" style="font-weight:normal">
-        <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
-          <br>
-          <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="document-text-outline"></ion-icon> Resume</a></li>
-          <li class="mb-2"><a href="https://www.linkedin.com/in/sierracornelius/" class="text-muted"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn Page</a></li>
-        </ul>
-      </div>
-      <div class="socialcolumn" style="font-weight:normal">
-        <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
-            <li class="mb-2"><a href="graphic_design.html" class="text-muted"><ion-icon name="color-palette"></ion-icon> print & digital design</a></li>
-            <li class="mb-2"><a href="video_editing.html" class="text-muted"><ion-icon name="videocam"></ion-icon> video editing</a></li>
-            <li class="mb-2"><a href="writing.html" class="text-muted"><ion-icon name="pencil-outline"></ion-icon> writing</a></li>
-            <li class="mb-2"><a href="social_media_management.html" class="text-muted"><ion-icon name="people"></ion-icon> social media management</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  </footer>
-    <!-- End -->
-</body>
-</html>
+      </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+          showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+          <!-- End -->
+      </body>
+    </html>
