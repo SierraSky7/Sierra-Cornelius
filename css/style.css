@@ -51,6 +51,21 @@ section, h1 {
   width: 100%;
 }
 
+.grid-art {
+  display: grid;
+  grid-template-columns: repeat(2, 560px);
+  grid-template-rows: repeat(2, 350px);
+  grid-gap: 10px 10px;
+}
+
+.grid-item-art {
+  padding: 10px;
+}
+
+.grid-art img {
+  width: 100%;
+}
+
  /*Modal Display*/
 .row > .column {
   padding: 0 10px;
