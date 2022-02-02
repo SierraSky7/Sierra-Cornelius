@@ -54,7 +54,7 @@ section, h1 {
 .grid-art {
   display: grid;
   grid-template-columns: repeat(2, 600px);
-  grid-template-rows: repeat(2, 450px);
+  grid-template-rows: repeat(2, 490px);
   grid-gap: 10px 10px;
 }
 
@@ -63,7 +63,7 @@ section, h1 {
 }
 
 .grid-art img {
-  width: auto;
+  height: 100%;
 }
 
  /*Modal Display*/
