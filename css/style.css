@@ -738,10 +738,10 @@ p {
 }
 
 @media all and (max-width:800px) {
-  .imagecontainer {
+  .containerimage {
     display: block;
-     float: none;
-     width: 100%;
+    float: none;
+    width: 100%;
   }
 }
 
