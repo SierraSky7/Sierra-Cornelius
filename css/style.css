@@ -745,6 +745,22 @@ p {
   }
 }
 
+@media all and (max-width:800px) {
+  .socialcolumn {
+    display: block;
+     float: none;
+     width: 100%;
+  }
+}
+
+@media all and (max-width:800px) {
+  .mb-2 {
+    display: block;
+     float: none;
+     width: 100%;
+  }
+}
+
 .main {
   margin-left: 200px;
 }
