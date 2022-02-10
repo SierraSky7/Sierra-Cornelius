@@ -728,6 +728,12 @@ p {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .bg-logo {
+    float: center;
+  }
+}
+
 .main {
   margin-left: 200px;
 }
