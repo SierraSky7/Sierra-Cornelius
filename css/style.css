@@ -754,10 +754,10 @@ p {
 }
 
 @media all and (max-width:800px) {
-  .mb-2 {
+  li {
     display: block;
-     float: none;
-     width: 100%;
+    float: none;
+    width: 100%;
   }
 }
 
