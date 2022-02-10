@@ -8,6 +8,54 @@ body, html {
   z-index: 1;
 }
 
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bg-logo {
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 100%;
+  }
+}
+
+@media all and (max-width:800px) {
+  .column {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-top: 1em;
+    margin-right: 77em;
+  }
+}
+
+@media all and (max-width:800px) {
+  .caption2 {
+    width: 100%;
+  }
+}
+
+@media all and (max-width:800px) {
+  .socialcolumn {
+    display: block;
+     float: none;
+     width: 100%;
+  }
+}
+
+@media all and (max-width:800px) {
+  li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+}
+
 div {
   display: block;
 }
@@ -720,45 +768,6 @@ p {
 
 .navbar ion-icon:hover {
   color: #c7dbbf;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .bg-logo {
-    left: 0;
-    right: 0;
-    top: 30%;
-    width: 100%;
-  }
-}
-
-@media all and (max-width:800px) {
-  .containerimage {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-}
-
-@media all and (max-width:800px) {
-  .socialcolumn {
-    display: block;
-     float: none;
-     width: 100%;
-  }
-}
-
-@media all and (max-width:800px) {
-  li {
-    display: block;
-    float: none;
-    width: 100%;
-  }
 }
 
 .main {
