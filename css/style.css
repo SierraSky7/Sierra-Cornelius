@@ -730,7 +730,10 @@ p {
 
 @media screen and (max-width: 500px) {
   .bg-logo {
-    float: center;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 100%;
   }
 }
 
