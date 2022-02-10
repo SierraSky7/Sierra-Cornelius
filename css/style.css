@@ -852,8 +852,6 @@ z-index: 15;
 
 .containerimage {
 display: block;
-width: 300px;
-height: 300px;
 cursor: pointer;
 float: left;
 z-index: 20;
