@@ -208,6 +208,27 @@ ion-icon {
            z-index: 10;
        }
 
+       .overlay-grid1 {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       height: 300px;
+       width: 300px;
+       opacity: 0;
+       transition: .5s ease;
+       background-color: #2D0611;
+       z-index: 25;
+       }
+
+       .grid1-item:hover .overlay-grid1 {
+         opacity: .9;
+         cursor: pointer;
+         z-index: 15;
+         }
+
+
 </style>
     <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
       <div class="sidehoverbar">
@@ -305,7 +326,10 @@ ion-icon {
     <article>
       <section>
     <div class="grid1">
-      <div class="grid1-item"><img src="images/miscellaneous/2021_YE.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"></div>
+      <div class="grid1-item"><img src="images/miscellaneous/2021_YE.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+      <div class="overlay-grid1">
+        <div class="text">Responsible for color scheme, image selection, creative direction, and word choice.</div></a>
+      </div>
       <div class="grid1-item"><img src="images/miscellaneous/2020_YE.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
       <div class="grid1-item"><a href="https://www.humanitiesmontana.org/2020-annual-report/"><img src="images/miscellaneous/annual_report.jpg"></a></div>
       <div class="grid1-item"><a href="https://www.humanitiesmontana.org/covid-relief-grant-work/"><img src="images/COVID_Relief_Grant_Webpage .jpg" style="width:90%; padding-left:50px"></a></div>
@@ -335,7 +359,7 @@ ion-icon {
     <section>
       <div class="grid-art">
         <div class="grid-item-art"><img src="images/One_world_project.jpg" style="height: 460px;padding-left: 80px;padding-top: 40px"></div>
-        <div class="grid-item-art" style="width:80%; padding: 0px 0px 0px 80px"><img src="images/scifi_painting.jpg" style="height: 425px; margin-top: 65px; margin-left: 30px"></div>
+        <div class="grid-item-art" style="width:80%; padding: 0px 0px 0px 175px"><img src="images/scifi_painting.jpg" style="height: 425px; margin-top: 65px; margin-left: 30px"></div>
         <div class="grid-item-art" style="height:70%; padding-left: 210px"><img src="images/Sara_banner.jpg"></div>
       </div>
     </section>
