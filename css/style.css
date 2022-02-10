@@ -63,8 +63,8 @@ body, html {
 @media all and (max-width:800px) {
   .socialcolumn {
     display: block;
-     float: none;
-     width: 100%;
+    float: none;
+    width: 100%;
   }
 }
 
