@@ -17,10 +17,8 @@ body, html {
 
 @media screen and (max-width: 500px) {
   .bg-logo {
-    left: 0;
-    right: 0;
-    top: 30%;
-    width: 100%;
+    margin: 51px;
+    padding-right: 116px;
   }
 }
 
@@ -453,13 +451,11 @@ z-index: 12;
 .bg-logo {
  color: white;
  position: absolute;
- margin: auto;
- left: 10%;
- right: 10%;
+ margin-left: 20%;
+ margin-right: 20%;
  top: 25%;
  width: 850px;
  padding: 1px;
- text-align: center;
  z-index: 6;
  max-width: 90%;
 }
