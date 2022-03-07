@@ -483,6 +483,12 @@ z-index: 12;
   max-width: 100%;
 }
 
+.bgimg-1_2 {
+  background-image: url('../images/background1.2.jpg');
+  min-height: 100%;
+  max-width: 100%;
+}
+
 .bgimg-2 {
   background-image: url('../images/squiggle.jpg');
   min-height: 100%;
