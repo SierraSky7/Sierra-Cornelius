@@ -459,8 +459,6 @@ z-index: 12;
   opacity: 0.95;
   left: 0;
   right: 0;
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
