@@ -497,7 +497,7 @@ z-index: 12;
 }
 
 .bgimg-1 {
-  background-image: url('../../images/background.jpg');
+  background-image: url('../images/background.jpg');
   min-height: 100%;
   max-width: 100%;
 }
