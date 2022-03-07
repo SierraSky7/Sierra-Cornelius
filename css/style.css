@@ -16,13 +16,6 @@ body, html {
 }
 
 @media screen and (max-width: 500px) {
-  .bg-logo {
-    margin: 51px;
-    padding-right: 116px;
-  }
-}
-
-@media screen and (max-width: 500px) {
   .end-logo {
     left: 0;
     right: 0;
@@ -446,18 +439,6 @@ z-index: 12;
   flex: 50%;
   margin-top: 0;
   width: 100%;
-}
-
-.bg-logo {
- color: white;
- position: absolute;
- margin-left: 20%;
- margin-right: 20%;
- top: 25%;
- width: 850px;
- padding: 1px;
- z-index: 6;
- max-width: 90%;
 }
 
 .end-logo {
