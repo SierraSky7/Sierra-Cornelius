@@ -10,7 +10,7 @@ body, html {
 
 @media screen and (max-width: 500px) {
   .about {
-    margin-block-start: -160px;
+    margin-block-start: -248px;
   }
 }
 
@@ -21,8 +21,8 @@ body, html {
 }
 
 @media screen and (max-width: 500px) {
-  .bgimg-1_2 {
-    background-size: contain;
+  .bgimg-2 {
+    margin-block-start:-250px;
   }
 }
 
