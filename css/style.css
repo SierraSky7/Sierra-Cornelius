@@ -15,8 +15,8 @@ body, html {
 }
 
 @media screen and (max-width: 500px) {
-  .bgimg-1 {
-    display: block;
+  .bgimg-1_2 {
+    background-size: contain;
   }
 }
 
