@@ -461,7 +461,7 @@ z-index: 12;
   background-position-y: top;
   background-position-x: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   z-index: 0;
 }
 
