@@ -863,7 +863,7 @@ z-index: 25;
 }
 
 .imagecontainer:hover .overlay {
-  opacity: .9;
+  opacity: 1;
   cursor: pointer;
   z-index: 15;
   }
