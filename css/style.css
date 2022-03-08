@@ -458,10 +458,11 @@ z-index: 12;
   position: relative;
   left: 0;
   right: 0;
+  object-fit: cover;
   background-position-y: top;
   background-position-x: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: 0;
 }
 
