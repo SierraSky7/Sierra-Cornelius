@@ -30,6 +30,12 @@
     color: #91AF90;
   }
 
+  @media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+}
+
   @media screen and (max-width: 500px) {
     .about {
       margin-block-start: -34px;
@@ -200,18 +206,35 @@ ion-icon {
   font-weight: bolder;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
        /* styling sidebar */
        .sidehoverbar a {
-           background-color: #421A25;
+           background-color: #111;
            position: fixed;
            font-size: 22px;
            text-decoration: none;
            color: white;
-           padding: 15px;
-           border-radius: 25px 0px 0px 25px;
            transition: 0.5s;
-           opacity: 0.8;
            z-index: 15;
+           height: 100%;
+           width: 0;
+           top: 0;
+           right: 0;
+           background-color: #111;
+           overflow-x: hidden;
+           transition: 0.5s;
+           padding-top: 60px;
        }
 
        /* Hover effect on sidebar */
