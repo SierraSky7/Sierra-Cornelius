@@ -240,18 +240,11 @@ ion-icon {
          margin-right: 218px;
        }
 
-       /* Hover effect on sidebar */
-       .sidenav a:hover {
-           right: 0px;
-           opacity: 1;
-           background-color: #421A25;
-       }
-
        /* float icons*/
        .sidenav i {
            float: left;
        }
-       
+
        #main {
            transition: margin-right .5s;
            padding: 16px;
@@ -302,16 +295,16 @@ ion-icon {
 
 </style>
     <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="" style="background-color:#f9f9f3">
+      <div id="mySidenav" class="sidenav" style="width: 0px">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
       <div class="bgimg-1" style="background-color: #f9f9f3;margin-top: 30px;margin-left: 15px;margin-right: 15px;">
         <a name="Home"></a>
       </div>
-      <div id="mySidenav" class="sidenav" style="width: 0px;">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
 <div id="main" style="margin-right: 0px;">
   <span style="font-size: 18px;cursor:pointer;margin-left: 220px;" onclick="openNav()">menu ☰</span>
 </div>
