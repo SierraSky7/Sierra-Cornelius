@@ -751,10 +751,10 @@ p {
 .navbar {
   position: fixed;
   width: 100%;
-  background-color: #364F40;
-  opacity: .85;
+  background-color: #7e8165;
+  opacity: .9;
   overflow: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans' sans-serif;
   top: 0;
   left: 0;
   z-index: 15;
@@ -763,10 +763,10 @@ p {
 .navbar a {
   float: left;
   padding: 14px;
-  color: white;
+  color: #150702;
   text-decoration: none;
-  font-size: 20px;
-  font-family: 'Righteous', cursive;
+  font-size: 18px;
+  font-family: 'Josefin Sans' sans-serif;
   z-index: 15;
   opacity: none;
 }
@@ -774,13 +774,13 @@ p {
 .navbar a:hover {
   font-weight: bold;
   color: #c7dbbf;
-  font-size: 23px;
+  font-size: 21px;
   cursor: pointer;
   z-index: 15;
 }
 
 .navbar ion-icon {
-  color: HoneyDew;
+  color: #150702;
   opacity: none;
   z-index: 15;
 }
