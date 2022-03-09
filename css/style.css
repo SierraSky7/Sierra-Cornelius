@@ -6,6 +6,7 @@ body, html {
   font-family: 'Josefin Sans', sans-serif 'Roboto', sans-serif;
   overflow-x: hidden;
   z-index: 1;
+  transition: background-color .5s;
 }
 
 @media screen and (max-width: 500px) {
