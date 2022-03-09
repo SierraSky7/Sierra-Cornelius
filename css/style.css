@@ -3,7 +3,7 @@ body, html {
   opacity: 1;
 	margin: 0;
   background-size: cover;
-  font-family: 'Marck Script', 'Lucida Handwriting';
+  font-family: 'Josefin Sans', sans-serif 'Roboto', sans-serif;
   overflow-x: hidden;
   z-index: 1;
 }
@@ -626,7 +626,7 @@ overflow-x: hidden;
 }
 
 span.border::first-letter {
-   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-family: 'Lobster', cursive;
    font-size: 40px;
    font-weight: bold;
    font-style: italic;
@@ -659,14 +659,14 @@ span.border::first-letter {
 
 h3 {
   letter-spacing: 5px;
-  font: 25px 'Marck Script', 'Lucida Handwriting';
+  font: 25px 'Lobster', cursive;
   color: #111;
   margin-top: 29px;
 }
 
 h1 {
   letter-spacing: 1px;
-  font: 50px 'Marck Script', 'Lucida Handwriting';
+  font: 50px 'Lobster', cursive;
   color: #111;
   margin-left: 10px;
   font-weight: lighter;
@@ -683,7 +683,7 @@ h2 {
 h4 {
   letter-spacing: 5px;
   font-size: 35px;
-  font-family: 'Amatic SC';
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -754,7 +754,7 @@ p {
   background-color: #364F40;
   opacity: .85;
   overflow: hidden;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto', sans-serif;
   top: 0;
   left: 0;
   z-index: 15;
@@ -766,7 +766,7 @@ p {
   color: white;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Righteous', cursive;
   z-index: 15;
   opacity: none;
 }
@@ -879,7 +879,7 @@ z-index: 25;
 .text {
 color: white;
 font-size: 40px;
-font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif;
 position: absolute;
 top: 50%;
 left: 50%;
