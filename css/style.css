@@ -755,7 +755,7 @@ p {
   background-color: #7e8165;
   opacity: .9;
   overflow: hidden;
-  font-family: 'Josefin Sans' sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   top: 0;
   left: 0;
   z-index: 15;
@@ -767,7 +767,7 @@ p {
   color: #150702;
   text-decoration: none;
   font-size: 18px;
-  font-family: 'Josefin Sans' sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   z-index: 15;
   opacity: none;
 }
