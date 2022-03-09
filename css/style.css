@@ -521,6 +521,7 @@ z-index: 12;
   background-image: url('../images/bgimg-3.jpg');
   min-height: 100%;
   max-width: 100%;
+  background-size: cover;
 }
 
 .bgimg-3_1 {
