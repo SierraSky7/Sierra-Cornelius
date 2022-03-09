@@ -131,69 +131,55 @@ ion-icon {
   color: floralwhite;
 }
 
-       /* styling sidebar */
-       .sidehoverbar a {
-           background-color: #421A25;
-           position: fixed;
-           font-size: 22px;
-           text-decoration: none;
-           color: white;
-           padding: 15px;
-           border-radius: 25px 0px 0px 25px;
-           transition: 0.5s;
-           opacity: 0.8;
-           z-index: 15;
-       }
 
-       /* Hover effect on sidebar */
-       .sidehoverbar a:hover {
-           right: 0px;
-           opacity: 1;
-           background-color: #421A25;
-       }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ /* styling sidebar */
+ .sidenav a {
+     display: block;
+     background-color: #111;
+     position: relative;
+     font-size: 18px;
+     text-decoration: none;
+     color: #818181;
+     transition: 0.3s;
+     padding: -1px 1px 8px 82px;
+     z-index: 15;
+}
 
-       /* float icons*/
-       .sidehoverbar i {
-           float: left;
-       }
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 0px;
+   font-size: 36px;
+   margin-right: 218px;
+ }
 
-       /* defining position of each nav bar */
-       .graphic_design {
-           top: 58px;
-           right: -246px;
-           width: 300px;
-           height: 50px;
-           background-color: #421A25;
-       }
+ /* float icons*/
+ .sidenav i {
+     float: left;
+ }
 
-       .Video_editing {
-           top: 118px;
-           right: -156px;
-           width: 210px;
-           height: 50px;
-           background-color: #421A25;
-       }
+ #main {
+     transition: margin-right .5s;
+     padding: 16px;
+ }
 
-       .Writing {
-           top: 178px;
-           right: -199px;
-           width: 252px;
-           height: 50px;
-           background-color: #421A25;
-       }
+ /* content margin */
+ .hoverable-topic {
+     margin-right: 55px;
+ }
 
-       .Social_Management {
-           top: 238px;
-           right: -259px;
-           width: 312px;
-           height: 50px;
-           background-color: #421A25;
-       }
-
-       /* content margin */
-       .hoverable-topic {
-           margin-right: 55px;
-       }
        * Style inputs */
        input[type=text], select, textarea {
          width: 100%;
