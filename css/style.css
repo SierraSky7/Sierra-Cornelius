@@ -674,9 +674,10 @@ h1 {
 
 h2 {
   letter-spacing: 5px;
-  font: 45px 'Amatic SC';
+  font: 45px 'Righteous', cursive;
   color: #eee;
   margin-top: 29px;
+  margin-bottom: 0em;
 }
 
 h4 {
@@ -735,7 +736,7 @@ h4 {
 }
 
 .heading h2::first-letter {
-   font-family: 'Marck Script', 'Lucida Handwriting';
+   font-family: 'Pacifico';
    font-size: 60px;
    font-style: italic;
    text-shadow: .5em;
