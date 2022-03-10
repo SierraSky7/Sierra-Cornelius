@@ -730,14 +730,6 @@ h4 {
     line-height: 2;
 }
 
-.heading h2::first-letter {
-   font-family: 'Pacifico';
-   font-size: 60px;
-   font-style: italic;
-   text-shadow: .5em;
-   padding-bottom: 2px;
-}
-
 p {
   z-index: 8;
 }
