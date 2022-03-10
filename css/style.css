@@ -3,7 +3,7 @@ body, html {
   opacity: 1;
 	margin: 0;
   background-size: cover;
-  font-family: 'Josefin Sans', sans-serif 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif 'Verdana', sans-serif;
   overflow-x: hidden;
   z-index: 1;
   transition: background-color .5s;
