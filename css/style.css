@@ -893,3 +893,7 @@ z-index: 15;
 ion-icon {
   color: white;
 }
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
