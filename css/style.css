@@ -519,7 +519,7 @@ z-index: 12;
 }
 
 .bgimg-3 {
-  background-image: url('../images/bgimg-6.jpg');
+  background-image: url('../images/bgimg-3.jpg');
   min-height: 100%;
   max-width: 100%;
   background-size: cover;
@@ -532,7 +532,7 @@ z-index: 12;
 }
 
 .bgimg-4 {
-  background-image: url(https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+  background-image: url('../images/bgimg-6.jpg');
   min-height: 100%;
   max-width: 100%;
 }
