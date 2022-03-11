@@ -535,6 +535,7 @@ z-index: 12;
   background-image: url('../images/bgimg-6.jpg');
   min-height: 100%;
   max-width: 100%;
+  background-repeat: repeat;
 }
 
 .bgimg-4_1 {
