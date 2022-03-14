@@ -168,11 +168,8 @@ section, h1 {
 }
 
 .printdesigns .column {
-  float: left;
-  padding-left: 20px;
-  padding-right: 10px;
-  margin-left: 15px;
-  width: 30%;
+  width: 33%;
+  display: flex;
   z-index: 12;
 }
 
