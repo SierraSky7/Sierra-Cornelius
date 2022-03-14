@@ -337,7 +337,7 @@ ion-icon {
     <div class="caption3">
       <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| email marketing |    <br><br><li style="font-size: 12px">Graphics and layout designed by Sierra. Provided copywriting input and edits.</li></li>
     </div>
-    <div class="carouselcontainer">
+    <div class=".center">
         <div class="item">
         <img src="images/emails/Giving_thanks_email.jpg" style="width:300px"></div>
         <div class="item">
@@ -354,7 +354,6 @@ ion-icon {
         <img src="images/emails/GHA_reminder_email.jpg" style="width:300px"></div>
         <div class="item">
         <img src="images/emails/Townhall_thankyou.jpg" style="width:300px"></div>
-    </main>
   </div>
   </div>
   <div style="position:relative; margin-left:8%; margin-top:1%; margin-bottom:10%">
@@ -439,6 +438,35 @@ ion-icon {
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+      });
+      </script>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
           <script>
