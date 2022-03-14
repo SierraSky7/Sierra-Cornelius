@@ -67,9 +67,12 @@
 .slick-next:before
 {
     font-family: 'slick';
+    padding: 1px;
+    background-color: #f4ece8;
+    border-radius: 2px;
     font-size: 30px;
     line-height: 1;
-
+    z-index: 60;
     color: black;
 
     -webkit-font-smoothing: antialiased;
