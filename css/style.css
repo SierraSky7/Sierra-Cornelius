@@ -71,8 +71,8 @@ div {
   z-index: 12;
 }
 
-section, h1 {
-  padding: 0 1em;
+section {
+  padding: 1%;
 }
 
 .grid {
@@ -497,6 +497,7 @@ h1 {
   color: #111;
   margin-left: 10px;
   font-weight: lighter;
+  padding: 0 1em;
 }
 
 h2 {
