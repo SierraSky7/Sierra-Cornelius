@@ -277,6 +277,7 @@ z-index: 12;
   background-image: url('../images/background.jpg');
   min-height: 100%;
   max-width: 100%;
+  margin-top: 2%;
 }
 
 /*key skills*/
