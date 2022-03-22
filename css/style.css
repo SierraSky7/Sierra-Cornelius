@@ -9,59 +9,6 @@ body, html {
   transition: background-color .5s;
 }
 
-@media screen and (max-width: 500px) {
-  .about {
-    margin-block-start: -248px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .bgimg-1_2 {
-    background-size: contain;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .bgimg-2 {
-    margin-block-start:-250px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    display: block;
-  }
-}
-
-@media all and (max-width:800px) {
-  .containerimage {
-    width: 200px;
-    height: 200px;
-    margin-left: 1em;
-    margin-right: 150px;
-  }
-}
-
-@media all and (max-width:800px) {
-  .caption2 {
-    width: 100%;
-  }
-}
-
-@media all and (max-width:800px) {
-  .socialcolumn {
-    display: block;
-  }
-}
-
-@media all and (max-width:800px) {
-  li {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-}
-
 div {
   display: block;
 }
