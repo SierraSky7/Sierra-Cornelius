@@ -271,12 +271,14 @@ z-index: 12;
   z-index: 0;
 }
 
+/*portfolio logo*/
 .bgimg-1 {
   background-image: url('../images/background.jpg');
   min-height: 100%;
   max-width: 100%;
 }
 
+/*key skills*/
 .bgimg-1_2 {
   background-image: url('../images/background1.2.jpg');
   max-width: 100%;
@@ -321,7 +323,7 @@ z-index: 12;
 }
 
 .bgimg-5 {
-  background-image: url(https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-image: url('../images/bgimg-4.jpg');
   min-height: 100%;
   max-width: 100%;
 }
