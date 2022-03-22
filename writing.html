@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sierra Cornelius Media Arts Portfolio">
+    <meta name="author" content="Sierra Cornelius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Cornelius Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Lobster&family=Pacifico&family=Righteous&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+    <script src="https://kit.fontawesome.com/a893606c27.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+  </head>
+  <style>
+  ::-webkit-scrollbar {
+  width: 10px;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    color: black;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    color: #91AF90;
+  }
+
+  @media (max-width: 800px){
+  .printdesigns .column {
+    object-position: left;
+    margin-bottom: 48em;
+    padding-bottom: 45px;
+    display: contents;
+  }
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {
+    padding-top: 15px;
+}
+}
+
+@media screen and (max-width: 450px) {
+.navbar {
+  padding-top: 15px;
+}
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    margin-block-start: -34px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about h3{
+    margin-block-start: -10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about p{
+    margin-block-start: -5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bgimg-1_2 {
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bgimg-2 {
+    margin-top: -10em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bgimg-1 {
+    margin-top: -10em;
+  }
+}
+
+@media all and (max-width:800px) {
+  .column {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-top: 1em;
+    margin-right: 77em;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media all and (max-width:800px) {
+  .socialcolumn {
+    display: contents;
+  }
+}
+
+@media all and (max-width:800px) {
+  .grid1 {
+    display: inline-flex;
+  }
+}
+
+  .overlay-description {
+    position: absolute;
+    margin-left: 0;
+    margin-right: 8px;
+    margin-bottom: 23px;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 49%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 9px;
+    text-align: center;
+}
+
+  .column:hover .overlay-description {
+    opacity: 1;
+  }
+
+.socialcolumn {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  height: 150px;
+  text-decoration: left;
+}
+
+.socialrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social li {
+  display: inline;
+  text: inline;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.socialcolumn li:hover {
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+  color: white;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+  z-index: 10;
+}
+
+footer a:hover {
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:visited {
+  color: #E3E3E3;
+  text-decoration: none;
+  z-index: 10;
+}
+
+ion-icon {
+  white;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 50%;
+  padding: 10px 3px 10px 7px;
+  z-index: 12;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  z-index: 12;
+  opacity: 1;
+}
+
+.button {
+  background-color: #3D091B;
+  float: left;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: #364F40;
+  color: floralwhite;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ /* styling sidebar */
+ .sidenav a {
+     display: block;
+     background-color: #111;
+     position: relative;
+     font-size: 16px;
+     text-decoration: none;
+     color: #818181;
+     transition: 0.3s;
+     padding: -1px 1px 8px 82px;
+     z-index: 15;
+}
+
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 0px;
+   font-size: 36px;
+   margin-right: 218px;
+ }
+
+ /* float icons*/
+ .sidenav i {
+     float: left;
+ }
+
+ #main {
+     transition: margin-right .5s;
+     padding: 16px;
+ }
+
+ /* content margin */
+ .hoverable-topic {
+     margin-right: 55px;
+ }
+
+</style>
+    <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
+      <div class="navbar">
+        <a href="index.html#Home"><ion-icon name="rocket-sharp"></ion-icon></i> home</a>
+        <a href="index.html#About"><ion-icon name="information-circle"></ion-icon></i> about</a>
+        <a href="index.html#contact_section"><ion-icon name="mail-sharp"></ion-icon></i> contact</a>
+          <div id="mySidenav" class="sidenav" style="width: 0px">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="graphic_design.html" style="text-align:left"><i class="fas fa-palette"></i>&nbsp; Print and Digital Design</a>
+            <a href="video_editing.html" style="text-align:left"><i class="fas fa-video"></i>&nbsp; Video Editing</a>
+            <a href="writing.html" style="text-align:left"><i class="fas fa-pen-fancy"></i>&nbsp; Creative Copywriting</a>
+            <a href="social_media_management.html" style="text-align:left; font-size:16px"><i class="fa fa-users"></i>&nbsp; Social Media Management</a>
+          </div>
+          <div id="main">
+          <span style="float: right;color: #150702;text-decoration: none;font-family: 'Josefin Sans', sans-serif;z-index: 15;font-size: 18px;cursor:pointer;" onclick="openNav()">menu ☰</span>
+          </div>
+        </div>
+<div class="bgimg-3_1" style="top:0; left:0; right:0">
+  <div class="heading" style="top:37%; left:0; color:#141414; text-align:center; padding:23px 0px 0px 0px; width:100%; opacity:.85">
+    <h2 class="heading" style="text-align:center; background-color:#161616">Creative Copywriting</h2>
+  </div>
+  <div style="position:relative; margin-left:1%">
+    <h2></h2>
+      <div class="mediakit">
+        <div class="row">
+          <div class="column">
+            <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <div class="overlay-description">2021 Winter Fundraising Appeal Letter</div>
+          </div>
+          <div class="column">
+            <img src="images/writings/meadowlark.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            <div class="overlay-description" style="margin-bottom:166px; z-index:20;">Contemplative Website Hero Image Blurb</div>
+          </div>
+          </div>
+          <div id="myModal" class="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <div class="mySlides">
+                <img src="images/writings/YEA_letter.jpg" style="width:100%; opacity:1">
+              </div>
+              <div class="mySlides">
+                <img src="images/writings/Meadowlark_text.jpg" style="width:100%; opacity:1">
+              </div>
+              <div class="mySlides">
+                <img src="images/writings/philosophy_text.jpg" style="width:100%; opacity:1">
+              </div>
+              <div class="mySlides">
+                <img src="images/writings/philosophy_text2.jpg" style="width:100%; opacity:1">
+              </div>
+              <div class="mySlides">
+                <img src="images/writings/Brooke_article.jpg" style="width:100%; opacity:1">
+              </div>
+              <div class="mySlides">
+                <img src="images/writings/newsletter_piece.jpg" style="width:100%; opacity:1">
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div style="position:relative; margin-left:1%; margin-top:1%">
+        <div class="mediakit">
+          <div class="row">
+            <div class="column">
+              <img src="images/writings/DIY_12.jpg" style="width:90%; padding:0px 0px 0px 0px; margin-top:-5%;" onclick="openModal();currentSlide(3)" class="hover-shadow">
+              <div class="overlay-description" style="width:44%">One of the 25+ "Our Philosophy Perspective" writings from a weekly pandemic e-newsletter</div>
+            </div>
+            <div class="column" style="margin-top:-170px">
+              <img src="images/writings/DIY_25.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+              <div class="overlay-description" style="margin-bottom:274px">Additional sample of the weekly e-newsletter philosophy writings.</div>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div style="position:relative; margin-left:1%; margin-top:1%; padding:0px 2px 0px 7px">
+          <div class="mediakit">
+            <div class="row" style="padding-bottom: 36px">
+              <div class="column">
+                <a href="https://www.humanitiesmontana.org/a-heart-for-the-humanities-communications-manager-brooke-beighle/">
+                <img src="images/writings/Brooke_article.jpg" style="width:100%; cursor:pointer; margin-top:-5px; padding-bottom:10px"></a>
+              </div>:
+              <div class="column" style="margin-top:-260px">
+                <a href="https://www.humanitiesmontana.org/sharp-press-release/">
+                <img src="images/writings/SHARP_press_release.jpg" style="width:100%; cursor:pointer"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="caption1" style="position:absolute; margin-top:367px">
+          <a href="index.html">
+          <span class="border">Back to Home</span></a>
+        </div>
+    </div>
+<footer style="text-align:center; padding:12px 12px; background-color:#2D0611; color:white; font-family:'Josefin Sans', sans-serif">
+  <a name="contact_section"</a>
+    <div class="container">
+      <div class="socialrow">
+        <div class="socialcolumn" style="margin-left:20">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+            <li class="mb-2" style="font-size:20px; font-weight:bold"><a href="mailto:sierracornelius07@gmail.com" class="text-muted"> Contact Me</a></li>
+            <li class="mb-2"> Send a message | <a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon> sierracornelius07@gmail.com</li>
+            <li class="mb-2"> Call me           | <ion-icon name="call"></ion-icon> 406.880.3859</li>
+              <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon> More Questions?</a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+            <br>
+            <li class="mb-2"><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:c3357296-38a4-31b9-a999-fd62b7bc8da8" class="text-muted"><ion-icon name="document-text-outline"></ion-icon> Resume</a></li>
+            <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn Page</a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white">
+              <li class="mb-2"><a href="graphic_design.html" class="text-muted"><ion-icon name="color-palette"></ion-icon> print & digital design</a></li>
+              <li class="mb-2"><a href="video_editing.html" class="text-muted"><ion-icon name="videocam"></ion-icon> video editing</a></li>
+              <li class="mb-2"><a href="writing.html" class="text-muted"><ion-icon name="pencil-outline"></ion-icon> creative copywriting</a></li>
+              <li class="mb-2"><a href="social_media_management.html" class="text-muted"><ion-icon name="people"></ion-icon> social media management</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+      showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+      <!-- End -->
+  </body>
+</html>
