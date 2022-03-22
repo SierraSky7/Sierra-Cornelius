@@ -18,12 +18,12 @@ div {
   z-index: 12;
 }
 
-section {
+section  {
   padding: 0em;
 }
 
 .grid {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(2, 560px);
   grid-template-rows: repeat(3, 350px);
   grid-gap: 20px 20px;
