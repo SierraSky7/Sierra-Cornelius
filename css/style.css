@@ -359,11 +359,11 @@ overflow-x: hidden;
   text-align: center;
   color: #000;
   z-index: 10;
-  margin: 20px;
+  margin-top: 25px;
 }
 
 .caption1 span.border {
-  background-color: #333;
+  background-color: rgb(35 35 35 / 90%);
   opacity: .8;
   color: #ddd;
   padding: 20px;
@@ -371,7 +371,7 @@ overflow-x: hidden;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 5px;
   z-index: 10;
-  border-radius: 13px;
+  border-radius: 15px;
 }
 
 .caption1 span.border a:hover {
