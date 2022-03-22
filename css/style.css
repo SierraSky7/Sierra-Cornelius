@@ -541,7 +541,7 @@ p {
 .navbar a:hover {
   font-weight: bold;
   color: #c7dbbf;
-  font-size: 19px;
+  font-size: 18px;
   cursor: pointer;
   z-index: 15;
 }
