@@ -354,7 +354,7 @@ overflow-x: hidden;
 }
 
 .caption1 {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 80%;
   width: 100%;
