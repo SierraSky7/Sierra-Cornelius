@@ -57,14 +57,16 @@ section  {
 }
 
 .grid-art {
+  margin-top: 5px;
   display: grid;
-  grid-template-columns: repeat(2, 600px);
+  grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 490px);
   grid-gap: 10px 10px;
+  justify-items: center;
 }
 
 .grid-item-art {
-  padding: 25px;
+  padding: 5px;
 }
 
 .grid-art img {
