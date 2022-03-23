@@ -289,6 +289,8 @@ img .hover-shadow {
   max-width: 100%;
   min-height: 100%;
   z-index: 4;
+  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 .bgimg-2 {
