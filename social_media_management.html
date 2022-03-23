@@ -110,7 +110,6 @@ li {
 .socialcolumn li:hover {
   font-weight: bolder;
   text-decoration: none;
-  cursor: pointer;
 }
 
 footer {
@@ -232,34 +231,27 @@ ion-icon {
      margin-right: 55px;
  }
 
- .overlay-description {
+img .hover-solution {
+  transition: .5s ease;
+  z-index: 25;
+  opacity: 0;
+}
+
+ .hover-solution:hover {
    position: relative;
-   rgb(35 35 35 / 90%);
-   color: #f1f1f1;
-   transition: .5s ease;
-   opacity: 0;
+   background-color: rgb(35 35 35 / 90%);
    color: white;
    text-align: left;
    font-family: 'Josefin Sans', sans-serif;
-}
-
- img:hover .overlay-description {
-   opacity: 1;
-   cursor: pointer;
-   z-index: 15;
- }
-
- .socialtext {
- color: white;
- line-height: 1.5;
- font-family: 'Josefin Sans', sans-serif;
- position: absolute;
- -webkit-transform: translate(-50%, -50%);
- -ms-transform: translate(-50%, -50%);
- transform: translate(-50%, -50%);
- text-align: left;
- z-index: 15;
- }
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   cursor: zoom-in;
+   z-index: 25;
+   line-height: 1.5;
+   font-family: 'Josefin Sans', sans-serif;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+    }
 
 </style>
     <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
@@ -286,18 +278,17 @@ ion-icon {
     <h4></h4>
       <div class="mediakit">
         <div class="row">
-            <div class="column" style="background-color:#1b1c1b; opacity:.7; font-family:'Josefin Sans', sans-serif; font-size:14pt; line-height: 1.5">
+          <div class="column" style="background-color:#1b1c1b; opacity:.7; font-family:'Josefin Sans', sans-serif; font-size:14pt; line-height: 1.5">
             <h4>The Situation:</h4>
               <p style="color:#fff"> The organization wished to grow their development efforts beyond their annual report and year-end fundraising appeals. The Development Director approached me with the idea of doing a Valentine's Day fundraiser, and together, we developed a multi-layered campaign.</p>
           </div>
           <div class="column">
-            <img src="images/social_media/Valentine's_Day.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            <div class="overlay-description">
-              <div class=socialtext><h4>My Solution:</h4>
-                <p style="color:#fff">The "For the Love of the Humanities" campaign was developed to promote constituent participation by encouraging individuals to make financial gifts in honor or memory of someone who inspired their love for the humanities. In conjunction with a Valentine's Day postcard that was mailed to constituents, I created a social media campaign to promote the fundraiser and engourage more online engagement from Humanities Montana's online community. This was the first time that the organization utilized social media as a fundraising tool. Additionally, I designed the postcard that doubled as a gift notification for the honorees, which could be sent either electronically or through the mail.</p></div>
-            </div>
+            <img src="images/social_media/Valentine's_Day.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-solution">
+              <h4>My Solution:</h4>
+                <p style="color:#fff">The "For the Love of the Humanities" campaign was developed to promote constituent participation by encouraging individuals to make financial gifts in honor or memory of someone who inspired their love for the humanities. In conjunction with a Valentine's Day postcard that was mailed to constituents, I created a social media campaign to promote the fundraiser and engourage more online engagement from Humanities Montana's online community. This was the first time that the organization utilized social media as a fundraising tool. Additionally, I designed the postcard that doubled as a gift notification for the honorees, which could be sent either electronically or through the mail.</p>
           </div>
           </div>
+        </div>
           <div id="myModal" class="modal">
           <span class="close" onclick="closeModal()">&times;</span>
             <div class="modal-content">
