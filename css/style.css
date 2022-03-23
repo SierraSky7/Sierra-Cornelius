@@ -361,13 +361,10 @@ overflow-x: hidden;
 
 .caption1 {
   position: relative;
-  left: 0;
-  top: 80%;
   width: 100%;
   text-align: center;
   color: #000;
   z-index: 10;
-  margin-top: 25px;
 }
 
 .caption1 span.border {
