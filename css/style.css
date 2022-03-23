@@ -257,7 +257,7 @@ img .hover-shadow {
   z-index: 3;
 }
 
- .bgimg-1_2, .bgimg-2_1, .bgimg-3_1, .bgimg-4_1, .bgimg-5_1 {
+ .bgimg-1_2, .bgimg-3_1, .bgimg-4_1, .bgimg-5_1 {
   position: sticky;
   left: 0;
   right: 0;
