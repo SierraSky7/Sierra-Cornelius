@@ -292,6 +292,7 @@ z-index: 12;
 .bgimg-2 {
   background-image: url('../images/squiggle.jpg');
   max-width: 100%;
+  z-index: 4;
 }
 
 .bgimg-2_1 {
@@ -344,7 +345,7 @@ z-index: 12;
   background-image: url(https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80);
   min-height: 100%;
   max-width: 100%;
-  z-index: 4;  
+  z-index: 4;
 }
 
 .contactimg {
