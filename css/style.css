@@ -293,12 +293,6 @@ img .hover-shadow {
   background-size: cover;
 }
 
-.bgimg-2 {
-  background-image: url('../images/squiggle.jpg');
-  max-width: 100%;
-  z-index: 4;
-}
-
 .bgimg-2_1 {
   background-image: url('../images/bgimg-2.jpg');
   min-height: 100%;
