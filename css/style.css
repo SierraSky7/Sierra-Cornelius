@@ -257,7 +257,7 @@ img .hover-shadow {
   z-index: 3;
 }
 
- .bgimg-1_2, .bgimg-3_1, .bgimg-5_1 {
+ .bgimg-1_2, .bgimg-3_1, {
   position: sticky;
   left: 0;
   right: 0;
@@ -326,6 +326,7 @@ img .hover-shadow {
   background-image: url('../images/bgimg-1');
   min-height: 100%;
   max-width: 100%;
+  background-size: cover;
   z-index: 4;
 }
 
@@ -334,13 +335,6 @@ img .hover-shadow {
   min-height: 100%;
   max-width: 100%;
   background-size: cover;
-  z-index: 4;
-}
-
-.bgimg-5_1 {
-  background-image: url(https://images.unsplash.com/photo-1505820013142-f86a3439c5b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80);
-  min-height: 100%;
-  max-width: 100%;
   z-index: 4;
 }
 
