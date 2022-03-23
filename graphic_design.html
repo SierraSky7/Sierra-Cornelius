@@ -101,7 +101,17 @@
 
 @media all and (max-width:800px) {
   .grid1 {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width:800px) {
+  .grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -173,14 +183,12 @@ ion-icon {
 }
 
 .grid {
+  position: relative;
+  margin-top: 5px;
   display: grid;
-  grid-template-columns: repeat(2, 560px);
+  grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 350px);
   grid-gap: 20px 20px;
-}
-
-.grid-item {
-  padding: 10px;
 }
 
 .grid img {
@@ -286,12 +294,12 @@ ion-icon {
         <div class="heading" style="top:35%; left:0; color:#2B1511; text-align:center; padding:23px 0px 25px 0px; width:100%; opacity:.85">
           <h2 class="heading" style="text-align:center; background-color:#d3cabe; padding:5px">print & digital design</h2>
         </div>
-      <div style="position:relative; margin-top:1%; margin-bottom:10%">
+      <div style="position:relative; margin-top:2%; margin-bottom:5%">
       <div class="caption3">
         <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| nonprofit event invitations |</li>
       </div>
       <div class="printdesigns">
-        <div class="row" style="padding: 0px 0px 0px 50px">
+        <div class="row" style="padding: 0px 0px 0px 0px">
             <div class="imagecontainer" style="opacity:1">
             <div class="column">
               <img src="images/Townhall_invitation.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
@@ -335,7 +343,7 @@ ion-icon {
     <div class="caption3">
       <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| email marketing |    <br><br><p style="font-size: 12px">Graphics and layout designed by Sierra. Provided copywriting input and edits.</p></li>
     </div>
-    <div class="centerMode">
+    <div class="centerMode" style="margin-top:5px">
         <div class="item">
         <img src="images/emails/Giving_thanks_email.jpg" style="width:265px"></div>
         <div class="item">
@@ -355,12 +363,12 @@ ion-icon {
   </div>
   </div>
   <div style="position:relative; margin-top:1%; margin-bottom:10%">
-    <div class="caption3" style="margin-top:-7%">
+    <div class="caption3">
       <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| managed creative projects |</li>
     </div>
     <article>
       <section>
-    <div class="grid1" style="margin-inline-start: 99px">
+    <div class="grid1">
       <div class="grid1-item"><img src="images/miscellaneous/2021_YE.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"></img></div>
       <div class="grid1-item"><img src="images/miscellaneous/2020_YE.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
       <div class="grid1-item"><a href="https://www.humanitiesmontana.org/2020-annual-report/"><img src="images/miscellaneous/annual_report.jpg"></a></div>
@@ -370,13 +378,13 @@ ion-icon {
     </article>
   </div>
     <div style="position:relative; margin-left:4.5%; margin-top:10%; margin-bottom:1%">
-      <div class="caption3" style="margin-top:-7%">
-        <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| managed creative projects |</li>
+      <div class="caption3">
+        <li style="border: 2px solid black; font-family: 'Josefin Sans', sans-serif; font-size: 20px; background-color: #f4ece8; padding: 5px; fill-opacity: .8; ">| other projects |</li>
       </div>
     <article>
     <section>
       <div class="grid">
-        <div class="grid-item"><img src="images/miscellaneous/remittance_envelope.jpg" style="width: 575px;padding-left: 60px"></div>
+        <div class="grid-item"><img src="images/miscellaneous/remittance_envelope.jpg"></div>
         <div class="grid-item" style="width:80%; padding: 0px 0px 0px 80px"><img src="images/miscellaneous/CARES_Chart.png"></div>
         <div class="grid-item"><img src="images/miscellaneous/Sharp_logos.jpg" style="width: 575px;padding-left: 60px"></div>
       </div>
