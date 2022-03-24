@@ -238,20 +238,7 @@ img .hover-shadow {
   width: 100%;
 }
 
-.end-logo {
- color: white;
- position: absolute;
- margin: auto;
- left: 20%;
- right: 20%;
- top: 35%;
- z-index: 6;
- width: 700px;
- padding: 1px;
- text-align: center;
-}
-
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+.bgimg-2, .bgimg-3, .bgimg-4{
   position: relative;
   left: 0;
   right: 0;
@@ -277,10 +264,11 @@ img .hover-shadow {
 /*portfolio logo*/
 .bgimg-1 {
   background-image: url('../images/background.jpg');
-  min-height: 100%;
+  min-height: 135%;
   max-width: 100%;
   margin-top: 2%;
   z-index: 2;
+  background-size: cover;
 }
 
 /*key skills*/
