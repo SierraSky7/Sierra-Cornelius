@@ -67,13 +67,10 @@
 
   @media all and (max-width:800px) {
     .column {
-      display: block;
-      float: none;
+      display: inline-flex;
+      flex-wrap: wrap;
       width: 100%;
-      margin-top: 1em;
-      margin-right: 77em;
-      padding-left: 15px;
-      padding-right: 15px;
+      align-content: center;
     }
   }
 
@@ -284,8 +281,8 @@ ion-icon {
       <div class="mediakit">
         <div class="row">
           <div class="column" style="font-family:'Josefin Sans', sans-serif; font-size:14pt; line-height: 1.5">
-            <h4>The Situation:</h4>
-              <p style="color:#fff"> The organization wished to grow their development efforts beyond their annual report and year-end fundraising appeals. The Development Director approached me with the idea of doing a Valentine's Day fundraiser, and together, we developed a multi-layered campaign.</p>
+            <h4 style="background-color:#1b1c1b; opacity:.9">The Situation:</h4>
+              <p style="color:#fff; background-color:#1b1c1b; opacity:.9"> The organization wished to grow their development efforts beyond their annual report and year-end fundraising appeals. The Development Director approached me with the idea of doing a Valentine's Day fundraiser, and together, we developed a multi-layered campaign.</p>
           </div>
           <div class="column">
             <img src="images/social_media/Valentine's_Day.jpg" style="width:100%; cursor: zoom-in" onclick="openModal();currentSlide(1)">
