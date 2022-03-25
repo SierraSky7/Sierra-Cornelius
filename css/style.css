@@ -61,12 +61,12 @@ section  {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 490px);
-  grid-gap: 10px 10px;
+  grid-gap: 20px 20px;
   justify-items: center;
 }
 
 .grid-item-art {
-  padding: 5px;
+  padding: 10px;
 }
 
 .grid-art img {
