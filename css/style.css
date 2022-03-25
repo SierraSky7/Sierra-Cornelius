@@ -264,9 +264,8 @@ img .hover-shadow {
 /*portfolio logo*/
 .bgimg-1 {
   background-image: url('../images/background.jpg');
-  min-height: 135%;
   max-width: 100%;
-  margin-top: 2%;
+  min-height: 95%;
   z-index: 2;
   background-size: cover;
 }
