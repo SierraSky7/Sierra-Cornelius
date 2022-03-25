@@ -118,7 +118,12 @@
 
 @media all and (max-width:800px) {
   .grid-art {
-    display: inline-grid;
+    display: grid;
+    justify-items: start;
+    align-content: center;
+    justify-content: start;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 421px);
   }
 }
 
