@@ -327,7 +327,7 @@
             <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px" onclick="openModal()" class="hover-shadow">
             <div id="myModal" class="textmodal">
             <div class="textmodal-content">
-              <span class="close">&times;</span>
+              <span class="close" onclick="closeModal()">&times;</span>
               <p>Some text in the Modal..</p>
             </div>
             </div>
@@ -428,21 +428,15 @@
     }
     </script>
     <script>
-    var modal = document.getElementById("myModal");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal
-    img.onclick = function() {
-      modal.style.display = "block";
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
     }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
     }
-
+    </script>
+    <script>
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
       if (event.target == modal) {
