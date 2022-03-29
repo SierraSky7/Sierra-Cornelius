@@ -678,10 +678,9 @@ hr.solid {
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
-.tooltip .tooltiptext {
+.column .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -696,7 +695,7 @@ hr.solid {
   margin-left: -60px;
 }
 
-.tooltip .tooltiptext::after {
+.column .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -707,6 +706,6 @@ hr.solid {
   border-color: black transparent transparent transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.column .tooltip:hover .tooltiptext {
   visibility: visible;
 }
