@@ -188,7 +188,7 @@ section  {
 
 img {
   margin-bottom: 17px;
-  z-index: 15;
+  z-index: 12;
 }
 
 .caption-container {
@@ -208,13 +208,13 @@ img {
 
 img .hover-shadow {
   transition: 0.3s;
-  z-index: 25;
+  z-index: 12;
 }
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: zoom-in;
-  z-index: 25;
+  z-index: 15;
 }
 
 .mediakit {
@@ -603,7 +603,7 @@ width: 300px;
 opacity: 0;
 transition: .5s ease;
 background-color: #63747A;
-z-index: 25;
+z-index: 15;
 }
 
 .imagecontainer:hover .overlay {
