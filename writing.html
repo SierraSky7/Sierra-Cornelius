@@ -324,41 +324,19 @@
       <div class="mediakit">
         <div class="row">
           <div class="column">
-            <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px" onclick="openModal()" class="hover-shadow">
+            <div id="myModal" class="textmodal">
+            <div class="textmodal-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
+            </div>
+            </div>
             <div class="overlay-description">2021 winter fundraising appeal letter</div>
           </div>
           <div class="column">
             <img src="images/writings/meadowlark.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
             <div class="overlay-description" style="margin-bottom:166px; z-index:20;">Contemplative Website Hero Image Blurb</div>
           </div>
-          </div>
-          <div id="myModal" class="modal">
-          <span class="close" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-              <div class="mySlides">
-                <img src="images/writings/YEA_letter.jpg" style="width:100%; opacity:1">
-              </div>
-              <div class="mySlides">
-                <img src="images/writings/Meadowlark_text.txt" style="width:100%; opacity:1">
-              </div>
-              <div class="mySlides">
-                <img src="images/writings/philosophy_text.jpg" style="width:100%; opacity:1">
-              </div>
-              <div class="mySlides">
-                <img src="images/writings/philosophy_text2.jpg" style="width:100%; opacity:1">
-              </div>
-              <div class="mySlides">
-                <img src="images/writings/Brooke_article.jpg" style="width:100%; opacity:1">
-              </div>
-              <div class="mySlides">
-                <img src="images/writings/newsletter_piece.jpg" style="width:100%; opacity:1">
-              </div>
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              <div class="caption-container">
-                <p id="caption"></p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -450,43 +428,28 @@
     }
     </script>
     <script>
-    function openModal() {
-      document.getElementById("myModal").style.display = "block";
+    var modal = document.getElementById("myModal");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    img.onclick = function() {
+      modal.style.display = "block";
     }
 
-    function closeModal() {
-      document.getElementById("myModal").style.display = "none";
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
     }
 
-    var slideIndex = 1;
-      showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
       }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
-      <!-- End -->
+}
+</script>
+      <!-- The End -->
   </body>
 </html>
