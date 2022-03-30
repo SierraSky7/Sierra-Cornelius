@@ -681,7 +681,7 @@ hr.solid {
   z-index: 20;
 }
 
-img .tooltip .tooltiptext {
+ .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -696,7 +696,7 @@ img .tooltip .tooltiptext {
   margin-left: -60px;
 }
 
-img .tooltip .tooltiptext::after {
+ .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -708,7 +708,7 @@ img .tooltip .tooltiptext::after {
   z-index: 20;
 }
 
-img .tooltip:hover .tooltiptext {
+ .tooltip:hover .tooltiptext {
   visibility: visible;
   z-index: 20;
 }
