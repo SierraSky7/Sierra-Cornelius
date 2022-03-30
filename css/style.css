@@ -678,6 +678,7 @@ hr.solid {
 .tooltip {
   position: relative;
   display: inline-block;
+  z-index: 20;
 }
 
 .column .tooltip .tooltiptext {
@@ -689,7 +690,7 @@ hr.solid {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 17;
+  z-index: 20;
   bottom: 150%;
   left: 50%;
   margin-left: -60px;
@@ -704,8 +705,10 @@ hr.solid {
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
+  z-index: 20;
 }
 
 .column .tooltip:hover .tooltiptext {
   visibility: visible;
+  z-index: 20;
 }
