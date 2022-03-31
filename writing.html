@@ -293,6 +293,10 @@
          margin-right: 55px;
      }
 
+     cursor contextmenu{
+
+     }
+
  </style>
      <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
        <div class="navbar">
@@ -319,8 +323,11 @@
       <div class="mediakit">
         <div class="row">
           <div class="column">
-            <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px; cursor:context-menu" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            <img src="images/writings/appeal_letter.jpg" style="width:100%; padding: 0px 0px 0px 0px; cursor:context-menu" onclick="openModal();currentSlide(1)" class="hover-shadow" onmouseenter="showTooltip()">
             <div class="overlay-description">2021 winter fundraising appeal letter</div>
+          </div>
+          <div id="myTooltip" class="tooltip" style="z-index: 33">
+            <div class="tooltiptext">Click to read</div>
           </div>
           <div class="column" style="z-index: 5">
             <img src="images/writings/meadowlark.jpg" style="width:100%; z-index: 2; cursor:context-menu" onclick="openModal();currentSlide(2)" class="hover-shadow">
@@ -500,6 +507,10 @@
       captionText.innerHTML = dots[slideIndex-1].alt;
     }
     </script>
+    <script>
+    function showTooltip() {
+      document.getElementById("myTooltip").style.display = "inline-block";
+    }
     </script>
     <script>
     // When the user clicks anywhere outside of the modal, close it
@@ -507,8 +518,8 @@
       if (event.target == modal) {
         modal.style.display = "none";
       }
-}
-</script>
+      }
+      </script>
       <!-- The End -->
   </body>
 </html>
