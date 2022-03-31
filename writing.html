@@ -18,6 +18,7 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   </head>
   <style>
       ::-webkit-scrollbar-track-piece {
@@ -293,6 +294,10 @@
          margin-right: 55px;
      }
 
+     a.tooltip_link {
+    position: relative !important;
+    }
+
  </style>
      <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="">
        <div class="navbar">
@@ -397,11 +402,10 @@
           <div class="mediakit">
             <div class="row" style="padding-bottom: 36px">
               <div class="column" style="z-index: 5">
+                <a href="#brooke" title="Tooltip with center arrow" class="tooltip_link center">
                 <a href="https://www.humanitiesmontana.org/a-heart-for-the-humanities-communications-manager-brooke-beighle/">
-                <img src="images/writings/Brooke_article.jpg" style="width:100%; cursor:pointer; margin-top:-5px; padding-bottom:10px; z-index: 10"></a>
-                <div id="myTooltip" class="tooltip" style="z-index: 33">
-                  <div class="tooltiptext">Click to read</div>
-                </div>
+                <img src="images/writings/Brooke_article.jpg" style="width:100%; cursor:pointer; margin-top:-5px; padding-bottom:10px; z-index: 10"></a></a>
+                <div class="tooltip center">Some tooltip text</div>
               </div>
               <div class="column" style="margin-top:-26%" style="z-index: 5">
                 <a href="https://www.humanitiesmontana.org/sharp-press-release/">
