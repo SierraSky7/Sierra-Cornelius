@@ -676,39 +676,51 @@ hr.solid {
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
-  z-index: 20;
+    display: none;
+    position: absolute !important;
+    width: 200px;
+    background: rgba(61,102,143,0.9);
+    padding: 5px;
+    margin: 0 0 12px 0;
+    color: #fff;
+    z-index: 100;
+    bottom: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
 }
 
- .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 20;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -60px;
+.tooltip:after {
+    content: "";
+    position: absolute !important;
+    bottom: -14px;
+    z-index: 100;
+    border: 0 solid rgba(61,102,143,0.9);
+    border-bottom: 14px solid transparent;
+    width: 100%;
 }
 
- .tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-  z-index: 20;
+.tooltip:before {
+    content: "";
+    position: absolute !important;
+    border: 0 solid rgba(61,102,143,0.9);
+    bottom: -14px;
+    z-index: 100;
 }
 
- .tooltip:hover .tooltiptext {
-  visibility: visible;
-  z-index: 20;
+.tooltip.center {
+   border-radius: 5px;
+}
+
+.tooltip.center:after {
+   border-left-width: 10px;
+   width: 50%;
+   left: 50%;
+}
+
+.tooltip.center:before {
+   border-right-width: 10px;
+   border-bottom: 14px solid transparent;
+   width: 50%;
+   right: 50%;
 }
