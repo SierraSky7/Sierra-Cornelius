@@ -590,6 +590,7 @@ display: block;
 cursor: pointer;
 float: left;
 z-index: 20;
+box-shadow: 20px 20px 10px darkgrey;
 }
 
 .overlay {
