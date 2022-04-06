@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sierra Cornelius Portfolio">
+    <meta name="author" content="Sierra Cornelius">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Cornelius Design Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Lobster&family=Pacifico&family=Righteous&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css>
+    <script src="https://kit.fontawesome.com/a893606c27.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+  </head>
+  <style>
+  ::-webkit-scrollbar-track-piece {
+    color: black;
+  }
+
+  @media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+  }
+
+  @media screen and (max-width: 450px) {
+  .navbar {
+    padding-top: 0px;
+  }
+  }
+
+
+  @media all and (max-width:800px) {
+    .socialcolumn {
+      display: contents;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .about {
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .about p{
+      margin-block-start: -5px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .bgimg-1_2 {
+      background-size: contain;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .bgimg-2 {
+      margin-top: -10.5em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .bgimg-1 {
+      background-color: #F9F9F3;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 90%;
+        min-height: 100%;
+        margin-top: 2%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .bgimg-1 {
+      background-color: #F9F9F3;
+      background-repeat: no-repeat;
+      min-height: 60%;
+      max-width: 100%;
+      margin-top: 6%;
+    }
+  }
+
+  @media all and (max-width:800px) {
+    .column {
+      display: block;
+      float: none;
+      width: 100%;
+      margin-top: 1em;
+      margin-right: 77em;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    width: 25%;
+    padding: 10px 3px 10px 7px;
+    z-index: 10;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    opacity: 1;
+    z-index: 10;
+  }
+
+.socialcolumn {
+  float: left;
+  width: 33%;
+  padding: 5px;
+  height: 181px;
+}
+
+.socialrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social li {
+  display: inline;
+  text: inline;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.socialcolumn li:hover {
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social ul {
+  margin-top: 0px;
+}
+
+footer {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+  color: white;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+  z-index: 10;
+}
+
+footer a:hover {
+  font-weight:bolder;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:visited {
+  color: #E3E3E3;
+  text-decoration: none;
+  z-index: 10;
+}
+
+ion-icon {
+  white;
+}
+
+.button {
+  background-color: #111;
+  float:left;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  padding: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 25px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px darkgrey;
+}
+
+.button:hover {
+  background-color: #364F40;
+  color: floralwhite;
+}
+
+.button a:link {
+  color: white;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.button a:link:hover {
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.button a:visited {
+  color: #f5f5f5;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 32;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ /* styling sidebar */
+ .sidenav a {
+     display: block;
+     background-color: #111;
+     position: relative;
+     font-size: 16px;
+     text-decoration: none;
+     color: #818181;
+     transition: 0.3s;
+     padding: -1px 1px 8px 82px;
+     z-index: 32;
+}
+
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 0px;
+   font-size: 36px;
+   margin-right: 218px;
+ }
+
+ /* float icons*/
+ .sidenav i {
+     float: left;
+ }
+
+ #main {
+     transition: margin-right .5s;
+     padding-top: 18px;
+     padding-right: 2px;
+     z-index: 15;
+ }
+ /* content margin */
+ .hoverable-topic {
+     margin-right: 55px;
+ }
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+</style>
+    <body data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed="" style="background-color:#F9F9F3">
+      <div class="navbar">
+        <a href="index.html#Home"><ion-icon name="rocket-sharp"></ion-icon></i> home</a>
+        <a href="index.html#About"><ion-icon name="information-circle"></ion-icon></i> about</a>
+        <a href="index.html#contact_section"><ion-icon name="mail-sharp"></ion-icon></i> contact</a>
+          <div id="mySidenav" class="sidenav" style="width: 0px; z-index: 32">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="graphic_design.html" style="text-align:left"><i class="fas fa-palette"></i>&nbsp; Print and Digital Design</a>
+            <a href="video_editing.html" style="text-align:left"><i class="fas fa-video"></i>&nbsp; Video Editing</a>
+            <a href="writing.html" style="text-align:left"><i class="fas fa-pen-fancy"></i>&nbsp; Creative Copywriting</a>
+            <a href="social_media_management.html" style="text-align:left; font-size:16px"><i class="fa fa-users"></i>&nbsp; Social Media Management</a>
+          </div>
+          <div id="main">
+          <span style="float: right;color: #150702;text-decoration: none;font-family: 'Josefin Sans', sans-serif;z-index: 15;font-size: 18px;cursor:pointer;" onclick="openNav()">menu ☰</span>
+          </div>
+        </div>
+      <div class="bgimg-1">
+      </div>
+<div class="about" style="text-align:left; padding:50px 50px 50px 50px; margin-left:10px">
+  <a name="About">
+  <h3 class="about" style="text-align:left">About Sierra</h3></a>
+  <p>Above all else, Sierra is an avid and enthusiastic learner. A true "go-getter," she loves a challenging puzzle and enjoys finding creative solutions to complex problems. She is a dynamic, creative, and resourceful digital media artist who enjoys proactively sharpening her design skills and is always refining her advanced knowledge of Adobe Photoshop, Illustrator, InDesign, and Premiere Pro. She is an inspired thinker who steadfastly believes that creativity is a powerful tool for positive social change, and she understands the vital role that visual art and human-centered storytelling play in transmitting valuable ideas that inform and inspire.</p>
+</div>
+<div class="bgimg-1_2">
+  <br> </br>
+<div style="position:relative; margin-left:15px; margin-right:5px; margin-top:20%; margin-bottom:10%; width:100%">
+  <p style="opacity:1; width:100%; background-color:transparent">
+    <div class="row" style="margin-left: 19px;">
+    <div class="column" style="float:left; padding-right:3px; padding-left:5px">
+      <div class="imagecontainer" style="opacity:1">
+        <a href="graphic_design.html">
+          <img src="images/Skills/Design.png" alt="Graphic Design" style="opacity:1; width: 300px; height: 300px" class="containerimage">
+          </a><div class="overlay"><a href="graphic_design.html">
+            <div class="text">print &amp; digital design</div></a>
+          </div>
+        </div>
+      </div>
+    <div class="column" style="float:left; padding-left:3px; padding-right:3px">
+    <div class="imagecontainer" style="opacity:1">
+      <a href="video_editing.html">
+    <img src="images/Skills/Video.png" alt="Video Editing" style="width: 300px; height: 300px" class="containerimage">
+  </a><div class="overlay" style="background-color: #8B311E"><a href="video_editing.html">
+        <div class="text">video editing</div></a>
+      </div>
+    </div>
+    </div>
+    <div class="column" style="float:left; padding-right:3px; padding-left:3px; margin-right:0">
+      <div class="imagecontainer" style="opacity:1">
+        <a href="writing.html">
+          <img src="images/Skills/Writing.png" alt="Writing" style="width: 300px; height: 300px" class="containerimage">
+          </a><div class="overlay" style="background-color: #3F4413"><a href="writing.html">
+            <div class="text">creative copywriting</div></a>
+          </div>
+      </div>
+    </div>
+    <div class="column" style="float:left">
+    <div class="imagecontainer" style="opacity:1">
+    <a href="social_media_management.html">
+    <img src="images/Skills/Socials.png" alt="Social Media Management" style="width: 300px; height: 300px" class="containerimage">
+    </a><div class="overlay" style="background-color: #C4861A"><a href="social_media_management.html">
+      <div class="text">social media management</div></a>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+  </p>
+  </div>
+      <div class="about" style="color:#141414; text-align:left; padding:15px 50px 50px 50px; margin-left:10">
+        <h3 class="about" style="text-align:left">More information</h3>
+          <p>
+          <div class="row" style="margin-left:15px">
+            <button class="button"><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:c3357296-38a4-31b9-a999-fd62b7bc8da8">Sierra's Resume</button></a>
+            <button class="button"><a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:9da2e157-3ad2-3cc7-88dd-d28a2acc8ff3">Diversity Statement</button>
+            <button class="button"><a href="https://www.linkedin.com/in/sierracornelius/">LinkedIn</button></a></p>
+          </div>
+      </div><br></br>
+<div class="bgimg-3" style="min-height:40%">
+    </div>
+<footer style="text-align:center; padding:12px 12px; background-color:#7e8165; color:#150702; font-family:'Josefin Sans', sans-serif">
+  <a name="contact_section"</a>
+    <div class="container">
+      <div class="socialrow">
+        <div class="socialcolumn" style="margin-left:20">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white; padding-inline-start: 0px">
+            <li class="mb-2" style="font-size:20px; font-weight: bolder; color: #ffdfa6"><a href="mailto:sierracornelius07@gmail.com" class="text-muted" style="color: #ffdfa6"> Contact Me</a></li>
+            <li class="mb-2"> Send a message | <a href="mailto:sierracornelius07@gmail.com" class="text-muted"><ion-icon name="mail-unread"></ion-icon> sierracornelius07@gmail.com</li></a>
+            <li class="mb-2"> Call me           | <ion-icon name="call"></ion-icon> 406.880.3859</li>
+              <li class="mb-2"><a href="contact.html" class="text-muted"><ion-icon name="help-circle"></ion-icon> More Questions?</a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white; padding-inline-start: 0px">
+            <li class="mb-2" style="font-size:20px; font-weight: bolder; color: #ffdfa6"> Resources</li>
+            <li class="mb-2"><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:c3357296-38a4-31b9-a999-fd62b7bc8da8" class="text-muted"><ion-icon name="document-text-outline"></ion-icon> Resume</a></li>
+            <li class="mb-2"><a href="https://www.linkedin.com/in/sierracornelius/" class="text-muted"><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="socialcolumn" style="font-weight:normal">
+          <ul class="list-unstyled mb-0" list_style_type="none" style="color:white; padding-inline-start: 0px">
+              <li class="mb-2" style="font-size:20px; font-weight: bolder; color: #ffdfa6"> Key Skills</li>
+              <li class="mb-2"><a href="graphic_design.html" class="text-muted"><ion-icon name="color-palette"></ion-icon> print & digital design</a></li>
+              <li class="mb-2"><a href="video_editing.html" class="text-muted"><ion-icon name="videocam"></ion-icon> video editing</a></li>
+              <li class="mb-2"><a href="writing.html" class="text-muted"><ion-icon name="pencil-outline"></ion-icon> creative copywriting</a></li>
+              <li class="mb-2"><a href="social_media_management.html" class="text-muted"><ion-icon name="people"></ion-icon> social media management</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="socialrow">
+        <ul class="list-unstyled mb-0" list_style_type="none" style="color:white; padding-inline-start: 0px; margin-top:0px">
+          <li class="mb-2" style="font-size:13px; color: white"> Website and graphics fully designed by Sierra using HTML, CSS, and JavaScript.</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginRight = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginRight= "0";
+    document.body.style.backgroundColor = "#F9F9F3";
+  }
+  </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- End -->
+  </body>
+</html>
